@@ -1,0 +1,92 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+lsi: true
+highlighter: rouge
+markdown: kramdown
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
+
+url: http://5th-ndn-hackathon.named-data.net
+baseurl:
+
+plugins:
+  - jekyll-assets
+  - jekyll-last-modified-at
+
+deadlines:
+- name: Submission deadline
+  date: December 3, 2017
+- name: Acceptance notification
+  date: December 8, 2017
+
+# Configuration for permalink
+permalink: /:page.html
+
+# Configuration for site
+title: 5th Named Data Networking (NDN) Hackathon
+short_title: 5th NDN Hackathon
+description: December 16-17th, 2017, University of California, Los Angeles
+author: 5th NDN Hackathon Organizing Committee
+email: 5th-ndn-hackathon@named-data.net
+
+# Configuration for blog
+lang: en
+columns: 3
+date_format: "%B %d, %Y"
+truncate_len: 200
+
+# Configuration for navbar.html
+navbar_list:
+- name: Home
+  link: /
+- name: Call for Hack Proposals
+  link: /cfh.html
+- name: Committees
+  link: /committees.html
+- name: Program
+  link: /program.html
+# - name: <b>HACKS</b>
+#   link: /hacks.html
+- name: <b>REGISTER NOW</b>
+  link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
+- name: Terms
+  link: /terms.html
+
+asides:
+    github: true
+    tweets: false
+    archive_tabs: false
+
+google_plus_one:
+    size: medium
+
+twitter:
+    username: NamedData
+    count: 5
+    exclude_replies: true
+    show_screen_name: true
+    show_follower_count: false
+    widget_id: 698294519054278656
+
+github:
+   username: 5th-ndn-hackathon
+   count: 10000
+
+assets:
+  cache: .sass-cache
+  features:
+    automatic_img_size: false
+
+  sources:
+    - _assets/css
+    - _assets/images
+    - _assets/fonts
+    - _assets/js
+    - _assets/bower
+    - _assets/files
+
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
