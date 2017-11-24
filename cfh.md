@@ -2,7 +2,7 @@
 layout: page
 title: Call for Hacks
 ---
-The NDN Team is organizing our 4th NDN Hackathon to be held on March 24-26th, 2017 on the University of Memphis Campus in Memphis, TN.  We solicit Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
+We solicit Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
 
@@ -13,7 +13,7 @@ We encourage projects that:
 
 ## Submission guidelines
 
-Proposals should be submitted via email to [4th-ndn-hackathon@named-data.net](mailto:4th-ndn-hackathon@named-data.net?subject=[4th%20NDN%20Hackathon%20Submission])
+Proposals should be submitted via email to [5th-ndn-hackathon@named-data.net](mailto:5th-ndn-hackathon@named-data.net?subject=[5th%20NDN%20Hackathon%20Submission])
 
 The submissions should include:
 
