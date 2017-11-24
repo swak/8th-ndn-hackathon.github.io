@@ -5,7 +5,7 @@ title: Committees
 
 ## Organizing Committee
 
-- Davide Pesavento (NIST & LIP6 / University Pierre & Marie Curie, Sorbonne University)
+- Davide Pesavento (National Institute of Standards and Technology)
 - Alex Afanasyev (Florida International University)
 
 ## Hacking Committee
