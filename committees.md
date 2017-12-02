@@ -10,3 +10,7 @@ title: Committees
 
 ## Hacking Committee
 
+- Ashlesh Gawande (University of Memphis)
+- Klaus Schneider (University of Arizona)
+- Spyridon Mastorakis (University of California, Los Angeles)
+- Susmit Shannigrahi (Colorado State University)
