@@ -16,9 +16,9 @@ plugins:
 
 deadlines:
 - name: Submission deadline
-  date: December 3, 2017
-- name: Acceptance notification
   date: December 8, 2017
+- name: Acceptance notification
+  date: December 11, 2017
 
 # Configuration for permalink
 permalink: /:page.html
