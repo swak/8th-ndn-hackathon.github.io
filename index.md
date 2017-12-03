@@ -12,6 +12,7 @@ We encourage projects that:
  - create or improve documentation and how-to guides.
 
 ## News
+- Dec 3rd, 2017: Submission deadline extended to Dec 8th
 - Nov 24th, 2017: The hackathon website is up
 
 ## Sponsors
