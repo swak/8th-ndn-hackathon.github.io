@@ -185,11 +185,13 @@ This project implements the first broadcast-based self-learning forwarding strat
 
 **Tasks**
 
-We have broken the implementation design into several tasks defined on Redmine, including discovery Interest indication (#4355), prefix announcement for self-learning (#4280), measurement table for self-learning and self- learning forwarding strategy (#4279). In addition, this task is blocked by the task of giving strategy authority over Data (#4290).
+We have broken the implementation design into several tasks defined on Redmine, including discovery Interest indication (#4355), prefix announcement for self-learning (#4280), measurement table for self-learning, and self-learning forwarding strategy (#4279).
+
+In addition, this task is blocked by the task of giving strategy authority over Data packets (#4290).
 
 **Required Knowledge for Participants**
 
-C++
+C++11
 
 **Expected Outcome**
 
@@ -229,7 +231,7 @@ In this hackathon project, we want to put the pieces together and demonstrate th
 
 - C++, ndn-cxx library, NFD
 - Socket programming, linux queuing discipline (qdisc), ioctl commands
-- Traffic shaping tools (e.g. tc netem)
+- Traffic shaping tools (e.g. `tc netem`)
 - Statistical tools, like R, to create plots of the results.
 
 **Expected Outcome**
@@ -243,6 +245,7 @@ A clear demonstration of better application performance due to the use of conges
 Project Lead: Davide Pesavento
 
 **Motivation**
+
 - Currently, NFD's measurements table is not exposed to management clients.
 - Hard to retrieve stats for measurements-based strategies such as ASF.
 - Help operators and developers understand/debug the behavior of forwarding strategies.
@@ -260,8 +263,8 @@ Support per-prefix read-only access to the measurements table via NFD management
     - Strings displayed as-is by the client, indexed by face-id
   * For a given name, represent the entry fields as structured TLVs
     - This requires the client to understand the TLV types, but is machine readable
-- Implement an NFD manager that responds to /localhost/nfd/measure/query/PREFIX (where PREFIX is encoded as one name component)
-- Implement a new nfdc command: nfdc measure query <PREFIX>
+- Implement an NFD manager that responds to `/localhost/nfd/measure/query/PREFIX` (where `PREFIX` is encoded as one name component)
+- Implement a new nfdc command: `nfdc measure query PREFIX`
 
 **Requirements for Participants**
 
@@ -327,10 +330,9 @@ Provide visibility into the Content Store, an important component of an NDN node
 
 **Tasks**
 
-- CS hit/miss counters: Publish a status dataset at /localhost/nfd/cs/info, providing CS hit/miss counters. Implement nfdc cs info command to show these counters.
-- CS enumeration: Provide a CS enumeration operation at /localhost/nfd/cs/query/PREFIX (where PREFIX is encoded as a name nested in one component), listing the first 256 Data names (no implicit digest) under
-the specified prefix. Implement nfdc cs list prefix PREFIX command to execute the query.
-- CS erase entry: command Add a control command at /localhost/nfd/cs/erase, that erases CS entries under a name prefix specified in the parameters, limited to the first 256 entries. Implement nfdc cs erase PREFIX command to execute the command and show the number of erased entries.
+- CS hit/miss counters: Publish a status dataset at `/localhost/nfd/cs/info`, providing CS hit/miss counters. Implement `nfdc cs info` command to show these counters.
+- CS enumeration: Provide a CS enumeration operation at `/localhost/nfd/cs/query/PREFIX` (where `PREFIX` is encoded as a name nested in one component), listing the first 256 Data names (no implicit digest) under the specified prefix. Implement `nfdc cs list prefix PREFIX` command to execute the query.
+- CS erase entry command: Add a control command at `/localhost/nfd/cs/erase`, that erases CS entries under a name prefix specified in the parameters, limited to the first 256 entries. Implement `nfdc cs erase PREFIX` command to execute the command and show the number of erased entries.
 
 **Required Knowledge for Participants**
 
@@ -340,7 +342,7 @@ the specified prefix. Implement nfdc cs list prefix PREFIX command to execute th
 
 **Expected Outcome**
 
-Use ndnping or ndn-traffic-generator to send traffic through NFD. Demonstrate the nfdc cs subcommands implemented in this project.
+Use ndnping or ndn-traffic-generator to send traffic through NFD. Demonstrate the `nfdc cs` subcommands implemented in this project.
 
 ---
 
@@ -363,7 +365,7 @@ Improve NFD performance with regard to [management](https://redmine.named-data.n
 - Data structure locking: Add a lightweight lock (a simple spinlock can be implemented with `std::atomic_flag`) to NFD's data structures that are accessed by both forwarding and management. This includes FaceTable, FIB, StrategyChoice, and ContentStore.
 - Management thread separation: Create a management thread. Connect management thread to forwarding through a Unix stream face.
 - More efficient communication between threads: NFD-RIB currently connects to NFD's main thread through a Unix stream face, so communication involves socket operations and packet encoding. Since they are in the same process, they can instead communicate through an internal "in-memory face" implemented using a ring buffer or similar technique. This should be applied to NFD-RIB first, and can be applied to the new management thread as well.
-- Merge NFD-RIB thread into management thread: NFD-RIB currently interacts with FIB through control commands. Since management is now in its own thread, NFD-RIB can be merged into the same management thread, and interact with FIB through direct function calls. This decreases the complexity of NFD-RIB and FIB management (add-nexthop and remove-nexthop commands can be eliminated).
+- Merge NFD-RIB thread into management thread: NFD-RIB currently interacts with FIB through control commands. Since management is now in its own thread, NFD-RIB can be merged into the same management thread, and interact with FIB through direct function calls. This decreases the complexity of NFD-RIB and FIB management (`add-nexthop` and `remove-nexthop` commands can be eliminated).
 
 **Required Knowledge for Participants**
 
