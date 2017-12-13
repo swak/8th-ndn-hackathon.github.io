@@ -16,9 +16,9 @@ plugins:
 
 deadlines:
 - name: Submission deadline
-  date: December 8, 2017
+  date: <del>December 8, 2017</del>
 - name: Acceptance notification
-  date: December 11, 2017
+  date: <del>December 11, 2017</del>
 
 # Configuration for permalink
 permalink: /:page.html
@@ -40,18 +40,18 @@ truncate_len: 200
 navbar_list:
 - name: Home
   link: /
-- name: Call for Hack Proposals
-  link: /cfh.html
+# - name: Call for Hack Proposals
+#   link: /cfh.html
 - name: Committees
   link: /committees.html
-- name: Program
-  link: /program.html
-# - name: <b>HACKS</b>
-#   link: /hacks.html
-- name: <b>REGISTER NOW</b>
-  link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
 - name: Terms
   link: /terms.html
+- name: Program
+  link: /program.html
+# - name: <b>REGISTER NOW</b>
+#   link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
+- name: <b>HACKS</b>
+  link: /hacks.html
 
 asides:
     github: true
