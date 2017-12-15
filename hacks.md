@@ -8,6 +8,9 @@ title: Accepted Hacks
 * TOC
 {:toc}
 
+[Project Pitches]({% asset_path project-pitches.pdf %})
+
+
 ## 1. ndnSIM analysis/illustration tools for collected metrics
 
 Lead: Spyros Mastorakis
