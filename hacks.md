@@ -10,8 +10,7 @@ title: Accepted Hacks
 
 [Project Pitches]({% asset_path project-pitches.pdf %})
 
-
-## 1. ndnSIM analysis/illustration tools for collected metrics
+## 1. <del>ndnSIM analysis/illustration tools for collected metrics</del>
 
 Lead: Spyros Mastorakis
 
