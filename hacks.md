@@ -32,7 +32,7 @@ A set of scripts to automate the analysis and illustration of metrics collected 
 
 ---
 
-## 2. Demonstration of latest NFD features in ndnSIM
+## 2. <del>Demonstration of latest NFD features in ndnSIM</del>
 
 Lead: Spyros Mastorakis
 
@@ -98,7 +98,7 @@ NDN signatures and verification will be supported by storing the wire format as 
 
 ---
 
-## 4. NDN Stack for ESP8266 Microcontroller
+## 4. <del>NDN Stack for ESP8266 Microcontroller</del>
 
 Project Lead: Ashlesh Gawande
 
@@ -139,7 +139,7 @@ The project leader will have at least 3 ESP8266 units (Wemos D1 mini boards) for
 
 ---
 
-## 5. NDN with Docker
+## 5. <del>NDN with Docker</del>
 
 Project Lead: Haitao Zhang
 
@@ -348,7 +348,7 @@ Use ndnping or ndn-traffic-generator to send traffic through NFD. Demonstrate th
 
 ---
 
-## 11. NFD Management Thread
+## 11. <del>NFD Management Thread</del>
 
 Project Lead: Davide Pesavento
 
