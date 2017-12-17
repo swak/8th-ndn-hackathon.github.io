@@ -3,7 +3,7 @@ layout: page
 title: Accepted Hacks
 ---
 
-{::options toc_levels="2" /}
+{::options toc_levels="2,3" /}
 
 * TOC
 {:toc}
@@ -57,6 +57,8 @@ A set of simulation scenarios, applications and any other changes needed.
 ---
 
 ## 3. Firefly: A globally scalable message bus with NDN at the edge 
+
+### [Slides]({% asset_path 3-Firefly.pdf %})
 
 Project Leads: Jeff Burke, Jeff Thompson 
 
@@ -175,6 +177,8 @@ If one's OS supports docker, it can talk in NDN in a very simple way.
 
 ## 6. Implementing Broadcast-based Self-learning Forwarding Strategy in NFD
 
+### [Slides]({% asset_path 6-self-learning.pdf %})
+
 Project Lead: Teng Liang
 
 **Motivation**
@@ -202,6 +206,8 @@ The ideal outcome is the full implementation of broadcast-based self-learning fo
 ---
 
 ## 7. Demonstrating the Benefits of In-Network Congestion Detection
+
+### [Slides]({% asset_path 7-cc.pdf %})
 
 Project Leads: Klaus Schneider, Eric Newberry, Chavoosh Ghasemi
 
@@ -244,6 +250,8 @@ A clear demonstration of better application performance due to the use of conges
 
 ## 8. NFD Measurements Table Manager
 
+### [Slides]({% asset_path 8-nfd-measurements.pdf %})
+
 Project Lead: Davide Pesavento
 
 **Motivation**
@@ -283,6 +291,8 @@ Demonstrate the new nfdc command on the ASF strategy, with ndn-traffic-generator
 
 ## 9. NDN Snapchat
 
+### [Slides]({% asset_path 9-ndn-snapchat.pdf %})
+
 Project Lead: Nicholas Gordon
 
 **Problem statement**
@@ -317,6 +327,8 @@ Build a weakly-secure Snapchat-like photosharing program on NDN, using QR codes 
 ---
 
 ## 10. NFD Content Store Management
+
+### [Slides]({% asset_path 10-cs-mgmt.pdf %})
 
 Project Lead: Davide Pesavento
 
