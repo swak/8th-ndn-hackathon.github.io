@@ -52,6 +52,8 @@ navbar_list:
 #   link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
 - name: <b>HACKS</b>
   link: /hacks.html
+- name: Judging
+  link: /judging.html
 
 asides:
     github: true
