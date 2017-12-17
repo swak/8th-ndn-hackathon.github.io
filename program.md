@@ -30,4 +30,6 @@ title: Program
 
 8AM-9AM | Breakfast
 9AM-12PM | Hacking
-12PM-1:30PM | Project presentations / Winners are proclaimed / Lunch (provided)
+12PM-1PM | Lunch (provided)
+1PM-2PM | Finalize hacking / Prepare project presentations
+2PM-3PM | Project presentations / Judging
