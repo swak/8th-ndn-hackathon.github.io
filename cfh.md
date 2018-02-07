@@ -13,7 +13,7 @@ We encourage projects that:
 
 ## Submission guidelines
 
-Proposals should be submitted via email to [5th-ndn-hackathon@named-data.net](mailto:5th-ndn-hackathon@named-data.net?subject=[5th%20NDN%20Hackathon%20Submission])
+Proposals should be submitted via email to [6th-ndn-hackathon@named-data.net](mailto:6th-ndn-hackathon@named-data.net?subject=[6th%20NDN%20Hackathon%20Submission])
 
 The submissions should include:
 
