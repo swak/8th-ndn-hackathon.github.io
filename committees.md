@@ -5,12 +5,9 @@ title: Committees
 
 ## Organizing Committee
 
-- Davide Pesavento (National Institute of Standards and Technology)
-- Alex Afanasyev (Florida International University)
+- Ashlesh Gawande (University of Memphis)
+- Eric Newberry (The University of Arizona)
+- Susmit Shannigrahi (Colorado State University)
 
 ## Hacking Committee
 
-- Ashlesh Gawande (University of Memphis)
-- Klaus Schneider (University of Arizona)
-- Spyridon Mastorakis (University of California, Los Angeles)
-- Susmit Shannigrahi (Colorado State University)

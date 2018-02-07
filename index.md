@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome to 5th NDN Hackathon
+title: Welcome to 6th NDN Hackathon
 ---
 
-The NDN Team is organizing our 5th NDN Hackathon on December 16 and 17, 2017 on the University of California, Los Angeles campus.  We solicit Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
+The NDN Team is organizing our 6th NDN Hackathon on May 12 and 13, 2018 at Florida International University.  We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
 
@@ -13,9 +13,7 @@ We encourage projects that:
 
 ## News
 
-- Dec 12, 2017: Accepted hacks are now online
-- Dec 3, 2017: Submission deadline extended to Dec 8th
-- Nov 24, 2017: The hackathon website is up
+- Feb TBA, 2018: The hackathon website is up
 
 ## Sponsors
 

@@ -7,7 +7,7 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
 
-url: http://5th-ndn-hackathon.named-data.net
+url: http://6th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
@@ -15,20 +15,20 @@ plugins:
   - jekyll-last-modified-at
 
 deadlines:
-- name: Submission deadline
-  date: <del>December 8, 2017</del>
-- name: Acceptance notification
-  date: <del>December 11, 2017</del>
+        #- name: Submission deadline
+        #  date: <del>December 8, 2017</del>
+        #- name: Acceptance notification
+        #  date: <del>December 11, 2017</del>
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 5th Named Data Networking (NDN) Hackathon
-short_title: 5th NDN Hackathon
-description: December 16-17th, 2017, University of California, Los Angeles
-author: 5th NDN Hackathon Organizing Committee
-email: 5th-ndn-hackathon@named-data.net
+title: 6th Named Data Networking (NDN) Hackathon
+short_title: 6th NDN Hackathon
+description: May 12-13, 2018, Florida International University
+author: 6th NDN Hackathon Organizing Committee
+email: 6th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
@@ -46,14 +46,14 @@ navbar_list:
   link: /committees.html
 - name: Terms
   link: /terms.html
-- name: Program
-  link: /program.html
+#- name: Program
+#  link: /program.html
 # - name: <b>REGISTER NOW</b>
 #   link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
-- name: <b>HACKS</b>
-  link: /hacks.html
-- name: Judging
-  link: /judging.html
+#- name: <b>HACKS</b>
+#  link: /hacks.html
+#- name: Judging
+#  link: /judging.html
 
 asides:
     github: true
@@ -72,7 +72,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 5th-ndn-hackathon
+   username: 6th-ndn-hackathon
    count: 10000
 
 assets:
