@@ -13,7 +13,7 @@ We encourage projects that:
 
 ## News
 
-- Feb TBA, 2018: The hackathon website is up
+- March 7, 2018: The hackathon website is up
 
 ## Sponsors
 
