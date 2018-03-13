@@ -50,8 +50,8 @@ navbar_list:
   link: /cfh.html
 #- name: Program
 #  link: /program.html
-# - name: <b>REGISTER NOW</b>
-#   link: https://www.eventbrite.com/e/9th-ndn-retreat-2017-tickets-39472319771
+- name: <b>REGISTER NOW</b>
+  link: https://www.eventbrite.com/e/6th-ndn-hackathon-tickets-43721926459
 #- name: <b>HACKS</b>
 #  link: /hacks.html
 #- name: Judging

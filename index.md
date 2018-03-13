@@ -13,6 +13,7 @@ We encourage projects that:
 
 ## News
 
+- March 13, 2018: Registration link is up
 - March 7, 2018: The hackathon website is up
 
 ## Sponsors
