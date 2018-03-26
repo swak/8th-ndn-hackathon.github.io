@@ -13,6 +13,7 @@ We encourage projects that:
 
 ## News
 
+- March 26, 2018: List of Hacking Committee members released
 - March 13, 2018: Registration link is up
 - March 7, 2018: The hackathon website is up
 
