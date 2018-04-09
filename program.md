@@ -3,33 +3,27 @@ layout: page
 title: Program
 ---
 
-## Friday, December 15th, 2017
+**Note: This schedule is tentative.**
+
+## Saturday, May 12, 2018
 
 {:.table-condensed .table-striped .table-hover .program}
 
-5PM-6PM | Project pitches / Groups are formed
-6PM-... | Dinner (out)
+9AM-10AM | Breakfast
+10AM-10:30AM | Welcome remarks and project idea pitches
+10:30AM-12:30PM | Forming hack groups and start hacking
+12:30PM-1:30PM | Lunch
+1:30PM-7:00PM | Continue hacking
 
 
-## Saturday, December 16th, 2017
-
-{:.table-condensed .table-striped .table-hover .program}
-
-8AM-9AM | Breakfast
-9AM-12PM | Hacking
-12PM-1PM | Lunch (provided)
-1PM-3:30PM | Hacking
-3:30PM-4PM | Break
-4PM-7PM | Hacking
-7PM-... | Dinner (out)
-
-
-## Sunday, December 17th, 2017
+## Sunday, May 13, 2018
 
 {:.table-condensed .table-striped .table-hover .program}
 
 8AM-9AM | Breakfast
-9AM-12PM | Hacking
-12PM-1PM | Lunch (provided)
-1PM-2PM | Finalize hacking / Prepare project presentations
-2PM-3PM | Project presentations / Judging
+9AM-12:30PM | Morning hacking
+12:30PM-1:30PM | Lunch
+1:30PM-5PM | Afternoon hacking
+5PM-5:30PM | Wrapping up and preparing projects for judging
+5:30PM-6:30PM | Presenting projects to judges
+7PM-... | Reception and best hackathon project awards
