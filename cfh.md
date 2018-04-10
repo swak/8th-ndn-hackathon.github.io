@@ -19,7 +19,7 @@ The submissions should include:
 
 - 1 **PDF** slide, listing the project leader(s) and summarizing the problem, contribution, tasks, required knowledge, and expected outcome
 
-All the submitted proposals will be reviewed by the Hacking Committee.  If accepted, the project leader is expected to give a 5 minute “pitch” presentation in the beginning of the Hackathon, soliciting participation from the Hackathon attendees.
+All the submitted proposals will be reviewed by the Hacking Committee.  If accepted, the project leader is expected to give a 1 minute “pitch” presentation in the beginning of the Hackathon, soliciting participation from the Hackathon attendees.
 
 Projects will be judged by a panel for the "Best of Hackathon" prize. We hope that the hackathon will be a fun event for all and that projects will lead to collaborations extending beyond the Hackathon.
 
@@ -42,4 +42,4 @@ proposal feedback and assistance to ensure projects have a concrete path to impl
 
 ### If I propose a project, do I have to go to the Hackathon?
 
-Proposals must specify one or more representatives who will attend the hackathon to pitch their idea and guide its development over the duration of the hackathon (hacking optional). Representatives will have 5 minutes to present their idea to attendees at the event opening. The pitch should emphasize the project's motivation and use cases.
+Proposals must specify one or more representatives who will attend the hackathon to pitch their idea and guide its development over the duration of the hackathon (hacking optional). Representatives will have 1 minutes to present their idea to attendees at the event opening. The pitch should emphasize the project's motivation and use cases.
