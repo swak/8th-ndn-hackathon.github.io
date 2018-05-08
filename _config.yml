@@ -5,7 +5,7 @@ plugins_dir: ./_plugins
 lsi: true
 highlighter: rouge
 markdown: kramdown
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vender']
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 
 url: http://6th-ndn-hackathon.named-data.net
 baseurl:
@@ -16,9 +16,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: April 27, 2018
+          date: <del>April 27, 2018</del>
         - name: Acceptance notification
-          date: May 4, 2018
+          date: <del>May 4, 2018</del>
 
 # Configuration for permalink
 permalink: /:page.html
@@ -46,14 +46,14 @@ navbar_list:
   link: /committees.html
 - name: Terms
   link: /terms.html
-- name: Call for Hacks
-  link: /cfh.html
+#- name: Call for Hacks
+#  link: /cfh.html
 - name: Program
   link: /program.html
-- name: <b>REGISTER NOW</b>
-  link: https://www.eventbrite.com/e/6th-ndn-hackathon-tickets-43721926459
-#- name: <b>HACKS</b>
-#  link: /hacks.html
+#- name: <b>REGISTER NOW</b>
+#  link: https://www.eventbrite.com/e/6th-ndn-hackathon-tickets-43721926459
+- name: <b>HACKS</b>
+  link: /hacks.html
 #- name: Judging
 #  link: /judging.html
 
