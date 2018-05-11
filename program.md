@@ -3,7 +3,7 @@ layout: page
 title: Program
 ---
 
-**Note: This schedule is tentative.**
+The hackathon will take place with the [ECS building](https://goo.gl/maps/gW3j1a4mA6v), room 243.
 
 ## Saturday, May 12, 2018
 

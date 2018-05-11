@@ -13,6 +13,7 @@ We encourage projects that:
 
 ## News
 
+- May 10, 2018: The hackathon location has been added to the schedule.
 - May 8, 2018: Accepted hacks have been posted
 - April 21, 2018: The submission period has been extended by a week
 - March 26, 2018: List of Hacking Committee members released
