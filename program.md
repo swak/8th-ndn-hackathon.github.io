@@ -3,7 +3,7 @@ layout: page
 title: Program
 ---
 
-The hackathon will take place with the [ECS building](https://goo.gl/maps/gW3j1a4mA6v), room 243.
+The hackathon will take place in the [ECS building](https://goo.gl/maps/gW3j1a4mA6v), room 243.
 
 ## Saturday, May 12, 2018
 
