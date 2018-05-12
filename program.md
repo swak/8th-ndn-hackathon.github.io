@@ -9,11 +9,11 @@ The hackathon will take place in the [Engineering and Computer Science building 
 
 {:.table-condensed .table-striped .table-hover .program}
 
-9AM-10AM | Breakfast
-10AM-10:30AM | Welcome remarks and project idea pitches
-10:30AM-12:30PM | Forming hack groups and start hacking
-12:30PM-1:30PM | Lunch
-1:30PM-7:00PM | Continue hacking
+9am-10am | Breakfast
+10am-10:30am | Welcome remarks and project idea pitches
+10:30am-12:30pm | Forming hack groups and start hacking
+12:30pm-1:30pm | Lunch
+1:30pm-7:00pm | Continue hacking
 
 
 ## Sunday, May 13, 2018
