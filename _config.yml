@@ -46,14 +46,19 @@ navbar_list:
   link: /committees.html
 - name: Terms
   link: /terms.html
+
 #- name: Call for Hacks
 #  link: /cfh.html
 - name: Program
   link: /program.html
+
 #- name: <b>REGISTER NOW</b>
 #  link: https://www.eventbrite.com/e/6th-ndn-hackathon-tickets-43721926459
 - name: <b>HACKS</b>
   link: /hacks.html
+
+- name: <b>PHOTOS<b>
+  link: /photos.html
 #- name: Judging
 #  link: /judging.html
 
