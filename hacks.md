@@ -72,7 +72,7 @@ PSync Java library that is used by an Android application for partial/full sync.
 
 ## 3. Firefly for Android
 
-Project Lead: Jeff Thompson 
+Project Lead: Jeff Thompson
 
 **Motivation and Problem Statement**
 
