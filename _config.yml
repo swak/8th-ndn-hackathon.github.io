@@ -59,8 +59,8 @@ navbar_list:
 
 - name: <b>PHOTOS</b>
   link: /photos.html
-#- name: Judging
-#  link: /judging.html
+- name: Judging
+  link: /judging.html
 
 asides:
     github: true

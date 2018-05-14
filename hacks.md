@@ -70,7 +70,7 @@ PSync Java library that is used by an Android application for partial/full sync.
 
 ---
 
-## 3. Firefly for Android
+## 3. <del>Firefly for Android</del>
 
 Project Lead: Jeff Thompson
 
@@ -96,7 +96,7 @@ Application developers need to focus on their NDN application, not implementing 
 
 ---
 
-## 4. Re-write NFD integration tests in Mini-NDN & create a gerrit bot
+## 4. <del>Re-write NFD integration tests in Mini-NDN & create a gerrit bot</del>
 
 Project Leads: Ashlesh Gawande, Saurab Dulal
 
@@ -158,7 +158,7 @@ The first step to NDNoT; May also be used in security setup of NDN Edges
 
 ---
 
-## 6. Whisperface: NDN Face Over Audio Channel
+## 6. <del>Whisperface: NDN Face Over Audio Channel</del>
 
 Project Lead: Alex Afanasyev
 
