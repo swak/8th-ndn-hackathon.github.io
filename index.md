@@ -19,11 +19,19 @@ We encourage projects that:
 
   Klaus Schneider, Md Ashiqur Rahman, Chavoosh Ghasemi
 
+  {% asset awards/20180515_105631.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
+
+  <br/>
+
 - **Most Needed**
 
   *Implement State Vector Sync (SVS) and Apply It to Repo*
 
   Jeff Thompson, Haitao Zhang, Saurab Dulal, Tianxiang Li
+
+  {% asset awards/20180515_105716.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
+
+  <br/>
 
 - **External Impact**
 
@@ -31,11 +39,19 @@ We encourage projects that:
 
   Zhiyi Zhang, Sanjeev Ramani, Laqin Fan, Edward Lu, Abdullah Abumouzah
 
+  {% asset awards/20180515_105754.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
+
+  <br/>
+
 - **Award**
 
   *Porting PSync C++ library to Java*
 
   Ashlesh Gawande, Damian Coomes
+
+  {% asset awards/20180515_105828.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
+
+  <br/>
 
 ## News
 
@@ -49,3 +65,5 @@ We encourage projects that:
 ## Sponsors
 
 [NDN Consortium](https://named-data.net/consortium/)
+
+{% asset awards/20180515_105608.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
