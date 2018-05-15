@@ -11,6 +11,32 @@ We encourage projects that:
  - create new NDN tools or modify existing tools,
  - create or improve documentation and how-to guides.
 
+## Hackathon Awards
+
+- **Most Relevant**
+
+  *Make NDN Congestion Control work in ndnSIM*
+
+  Klaus Schneider, Md Ashiqur Rahman, Chavoosh Ghasemi
+
+- **Most Needed**
+
+  *Implement State Vector Sync (SVS) and Apply It to Repo*
+
+  Jeff Thompson, Haitao Zhang, Saurab Dulal, Tianxiang Li
+
+- **External Impact**
+
+  *IoT security bootstrapping with NDN*
+
+  Zhiyi Zhang, Sanjeev Ramani, Laqin Fan, Edward Lu, Abdullah Abumouzah
+
+- **Award**
+
+  *Porting PSync C++ library to Java*
+
+  Ashlesh Gawande, Damian Coomes
+
 ## News
 
 - May 10, 2018: The hackathon location has been added to the schedule.
