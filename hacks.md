@@ -10,7 +10,7 @@ title: Accepted Hacks
 
 ## 1. NFD Management Thread
 
-### [Slides]({% asset_path 1-NFD-Management-Thread.pdf %})
+### [Slides]({% asset 1-NFD-Management-Thread.pdf @path %})
 
 Project Leads: Davide Pesavento, Junxiao Shi
 
@@ -50,7 +50,7 @@ Project Leads: Davide Pesavento, Junxiao Shi
 
 ## 2. Porting PSync C++ library to Java
 
-### [Slides]({% asset_path 2-PSync_Java_Port.pdf %})
+### [Slides]({% asset 2-PSync_Java_Port.pdf @path %})
 
 Project Lead: Ashlesh Gawande
 
@@ -131,7 +131,7 @@ Current NFD changes on gerrit receives verification comments from a bot running 
 
 ## 5. IoT security bootstrapping with NDN
 
-### [Slides]({% asset_path 5-IoT-Bootstrapping.pdf %})
+### [Slides]({% asset 5-IoT-Bootstrapping.pdf @path %})
 
 Project Leads: Yanbiao Li, Zhiyi Zhang, Haitao Zhang
 
@@ -199,7 +199,7 @@ Enables simple low-rate device-to-device communication, without affecting existi
 
 ## 7. Implement State Vector Sync (SVS) and Apply It to Repo
 
-### [Slides]({% asset_path 7-Implement-State-Vector-Sync.pdf %})
+### [Slides]({% asset 7-Implement-State-Vector-Sync.pdf @path %})
 
 Project Lead: Haitao Zhang
 
@@ -231,7 +231,7 @@ Prove a State Vector Sync library and a distributed NDN Data repo
 
 ## 8. Make NDN Congestion Control work in ndnSIM
 
-### [Slides]({% asset_path 8-ndnSIM-cc.pdf %})
+### [Slides]({% asset 8-ndnSIM-cc.pdf @path %})
 
 Project Leads: Md Ashiqur Rahman, Klaus Schneider
 
@@ -260,7 +260,7 @@ The current NFD congestion detection doesn't work in ndnSIM, since ndnSIM doesn'
 
 ## 9. A Basic Forwarding Strategy for Ad-hoc Networks in NFD
 
-### [Slides]({% asset_path 9-ad-hoc.pdf %})
+### [Slides]({% asset 9-ad-hoc.pdf @path %})
 
 Project Lead: Teng Liang
 
