@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to 7th NDN Hackathon, yahoo . asdfasdf asdf asdf asd !!! 
+title: Welcome to 7th NDN Hackathon - Vittual Hackathon !!! 
 ---
 
 The NDN Team is organizing our 6th NDN Hackathon on May 12 and 13, 2018 at Florida International University.  We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
