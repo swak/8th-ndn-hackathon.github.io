@@ -7,9 +7,9 @@ The NDN Team is organizing our 6th NDN Hackathon on May 12 and 13, 2018 at Flori
 
 We encourage projects that:
 
- - directly address NDN research needs,
- - create new NDN tools or modify existing tools,
- - create or improve documentation and how-to guides.
+ - Directly address NDN research needs,
+ - Create new NDN tools or modify existing tools,
+ - Create or improve documentation and how-to guides.
 
 ## Hackathon Awards
 
