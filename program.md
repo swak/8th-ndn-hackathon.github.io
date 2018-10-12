@@ -3,32 +3,22 @@ layout: page
 title: Program
 ---
 
-The hackathon will take place in the [Engineering and Computer Science building (School of Computing and Information Sciences)](https://goo.gl/maps/gW3j1a4mA6v), room 243.
+As this is a remote hackathon, participants can work from their own comfortable place.
 
-## Saturday, May 12, 2018
+## Saturday, Oct 20, 2018
 
-{:.table-condensed .table-striped .table-hover .program}
-
-9am-10am | Breakfast
-10am-10:30am | Welcome remarks and project idea pitches
-10:30am-12:30pm | Forming hack groups and start hacking
-12:30pm-1:30pm | Lunch
-1:30pm-7:00pm | Continue hacking
-
-
-## Sunday, May 13, 2018
+**All the time are in PST (Pacific Standard Time)**   
 
 {:.table-condensed .table-striped .table-hover .program}
 
-9am-10am | Breakfast
-10am-12pm | Morning hacking
-12pm-1pm | Lunch
-1pm-5pm | Afternoon hacking
-5pm-6pm | Wrapping up and preparing projects for judging
+9:00 am | Introduction and welcome reception  
+9:20 am Hackathon starts  
+12:30 pm-1:30pm | Lunch  
+1:30 pm-7:00pm | Continue hacking, if needed, participants can work after this time as well. But we really encourage to sleep for better mental health :). 
 
+## Sunday, Oct 21, 2018
 
-## Monday, May 14, 2018
+{:.table-condensed .table-striped .table-hover .program}
 
-{:.table-condensed .tabe-striped .table-hover .program}
-
-6pm-... | Presenting projects to judges, Reception and best hackathon project awards
+3:00 pm | Hackathon ends, presentations, judging   
+5:00 pm | Announce results   
