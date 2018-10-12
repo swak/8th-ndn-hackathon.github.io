@@ -5,16 +5,8 @@ title: Committees
 
 ## Organizing Committee
 
-- Ashlesh Gawande (University of Memphis)
-- Eric Newberry (The University of Arizona)
-- Susmit Shannigrahi (Colorado State University)
+[I'm an inline-style link](https://www.google.com)
 
-## Hacking Committee
-
-- Alex Afanasyev (Florida International University)
-- Davide Pesavento (National Institute of Standards and Technology)
-- Haitao Zhang (University of California, Los Angeles)
-- Jeff Thompson (UCLA REMAP)
-- Junxiao Shi (National Institute of Standards and Technology)
-- Klaus Schneider (The University of Arizona)
-- Muktadir Chowdhury (University of Memphis)
+- [ Klaus Schneider ](klaus@cs.arizona.edu)(The University of Arizona)   
+- [ Tianxiang Li ](tianxiang@cs.ucla.edu) (University of California, Los Angeles)   
+- [ Saurab Dulal ](sdulal@memphis.edu) (University of Memphis)   
