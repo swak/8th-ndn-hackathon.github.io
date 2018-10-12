@@ -5,9 +5,9 @@ title: Program
 
 As this is a remote hackathon, participants can work from their own comfortable place.
 
-## Saturday, Oct 20, 2018
-
 **All the time are in PST (Pacific Standard Time)**   
+
+## Saturday, Oct 20, 2018
 
 {:.table-condensed .table-striped .table-hover .program}
 
