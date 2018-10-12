@@ -3,7 +3,7 @@ layout: page
 title: Welcome to 7th NDN Hackathon - Vittual Hackathon !!! 
 ---
 
-The NDN Team is organizing our 6th NDN Hackathon on May 12 and 13, 2018 at Florida International University.  We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
+The NDN Team is organizing our 7th NDN Hackathon on Oct 20 and 21.  We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
 
@@ -11,59 +11,33 @@ We encourage projects that:
  - Create new NDN tools or modify existing tools,
  - Create or improve documentation and how-to guides.
 
-## Hackathon Awards
+## How to Participate
 
-- **Most Relevant**
+**CALL FOR HACKS**   
+\--------------------------------------     
+The 7th Named Data Networking (NDN) Hackathon   
+Oct 20-21, 2018   
+Remote Participation    
 
-  *Make NDN Congestion Control work in ndnSIM*
+**REGISTRATION LINK**     
+\--------------------------------------   
+https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800   
+Registration deadline is set as Oct 15, but please register as soon as possible to help us plan the Hackathon better.
 
-  Klaus Schneider, Md Ashiqur Rahman, Chavoosh Ghasemi
+**CALL FOR HACKS**   
+\--------------------------------------    
+Proposals can be submitted using the form here: https://goo.gl/forms/Wd0363sq9heiiFS72   
+Details and submission guidelines: https://7th-ndn-hackathon.named-data.net/cfh.html   
 
-  {% asset awards/20180515_105631.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
-
-  <br/>
-
-- **Most Needed**
-
-  *Implement State Vector Sync (SVS) and Apply It to Repo*
-
-  Jeff Thompson, Haitao Zhang, Saurab Dulal, Tianxiang Li
-
-  {% asset awards/20180515_105716.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
-
-  <br/>
-
-- **External Impact**
-
-  *IoT security bootstrapping with NDN*
-
-  Zhiyi Zhang, Sanjeev Ramani, Laqin Fan, Edward Lu, Abdullah Abumouzah
-
-  {% asset awards/20180515_105754.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
-
-  <br/>
-
-- **Award**
-
-  *Porting PSync C++ library to Java*
-
-  Ashlesh Gawande, Damian Coomes
-
-  {% asset awards/20180515_105828.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
-
-  <br/>
+**IMPORTANT DATES FOR HACKS**    
+\--------------------------------------    
+Submission deadline: Oct 12, 2018   
+Acceptance notification: Oct 18, 2018   
 
 ## News
 
-- May 10, 2018: The hackathon location has been added to the schedule.
-- May 8, 2018: Accepted hacks have been posted
-- April 21, 2018: The submission period has been extended by a week
-- March 26, 2018: List of Hacking Committee members released
-- March 13, 2018: Registration link is up
-- March 7, 2018: The hackathon website is up
+- Oct 8, 2018: Selected 7th NDN hackathon date 
 
 ## Sponsors
 
 [NDN Consortium](https://named-data.net/consortium/)
-
-{% asset awards/20180515_105608.jpg @pic srcset:width="600 1x" srcset:width="800 2x" %}
