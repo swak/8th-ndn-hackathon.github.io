@@ -14,7 +14,7 @@ As this is a remote hackathon, participants can work from their own comfortable 
 9:00 am | Introduction and welcome reception  
 9:20 am | Hackathon starts  
 12:30 pm-1:30pm | Lunch  
-1:30 pm-7:00pm | Continue hacking, if needed, participants can work after this time as well. But we really encourage to sleep for better mental health :). 
+1:30 pm-7:00pm | Continue hacking, if needed, participants can work after this time as well. But we really encourage to sleep for the better mental health :). 
 
 ## Sunday, Oct 21, 2018
 
