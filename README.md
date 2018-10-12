@@ -1,1 +1,1 @@
-# 6th NDN Hackathon
+# 7th NDN Hackathon
