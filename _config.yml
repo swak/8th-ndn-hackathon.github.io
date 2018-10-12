@@ -16,19 +16,19 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: <del>April 27, 2018</del>
+          date: <del>Oct 12, 2018</del>
         - name: Acceptance notification
-          date: <del>May 4, 2018</del>
+          date: <del>Oct 18, 2018</del>
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 6th Named Data Networking (NDN) Hackathon
+title: 7th Named Data Networking (NDN) Hackathon
 short_title: 6th NDN Hackathon
-description: May 12-13, 2018, Florida International University
-author: 6th NDN Hackathon Organizing Committee
-email: 6th-ndn-hackathon@named-data.net
+description: Oct 20 - 21, 2018
+author: 7th NDN Hackathon Organizing Committee
+email: 7th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
