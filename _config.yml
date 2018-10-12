@@ -25,7 +25,7 @@ permalink: /:page.html
 
 # Configuration for site
 title: 7th Named Data Networking (NDN) Hackathon
-short_title: 6th NDN Hackathon
+short_title: 7th NDN Hackathon
 description: Oct 20 - 21, 2018
 author: 7th NDN Hackathon Organizing Committee
 email: 7th-ndn-hackathon@named-data.net
@@ -53,7 +53,7 @@ navbar_list:
   link: /program.html
 
 #- name: <b>REGISTER NOW</b>
-#  link: https://www.eventbrite.com/e/6th-ndn-hackathon-tickets-43721926459
+#  link: https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800
 - name: <b>HACKS</b>
   link: /hacks.html
 
@@ -79,7 +79,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 6th-ndn-hackathon
+   username: 7th-ndn-hackathon
    count: 10000
 
 assets:
