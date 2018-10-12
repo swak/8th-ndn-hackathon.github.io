@@ -5,10 +5,10 @@ title: Participant Guide
 
 ### Action Items BEFORE the Hackathon
 
-- Please email your GitHub ID to 6th-ndn-hackathon@named-data.net.  We will create a GitHub repository
-for your project under the [hackathon organization](https://github.com/6th-ndn-hackathon).
+- Please email your GitHub ID to 7th-ndn-hackathon@named-data.net.  We will create a GitHub repository
+for your project under the [hackathon organization](https://github.com/7th-ndn-hackathon).
 
-- Create web page explaining project at `6th-ndn-hackathon.named-data.net/<project-name>` using [GitHub Pages](https://pages.github.com/).
+- Create web page explaining project at `7th-ndn-hackathon.named-data.net/<project-name>` using [GitHub Pages](https://pages.github.com/).
 
 ### Action Items DURING the Hackathon
 
