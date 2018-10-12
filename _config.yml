@@ -16,9 +16,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: <del>Oct 12, 2018</del>
+          date: Oct 12, 2018
         - name: Acceptance notification
-          date: <del>Oct 18, 2018</del>
+          date: Oct 18, 2018
 
 # Configuration for permalink
 permalink: /:page.html
@@ -63,7 +63,7 @@ navbar_list:
   link: /judging.html
 
 asides:
-    github: true
+    github: false
     tweets: false
     archive_tabs: false
 
