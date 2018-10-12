@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Welcome to 7th NDN Hackathon - Vittual Hackathon !!! 
+title: Welcome to 7th NDN Hackathon - Virtual Hackathon !!! 
 ---
 
-The NDN Team is organizing our 7th NDN Hackathon on Oct 20 and 21.  We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
+The NDN Team is organizing our 7th NDN Hackathon on Oct 20 and 21. We are soliciting Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
 
@@ -36,7 +36,7 @@ Acceptance notification: Oct 18, 2018
 
 ## News
 
-- Oct 8, 2018: Selected 7th NDN hackathon date 
+- Oct 8, 2018: Hackathon date, submission deadline, and acceptance notification confirmed
 
 ## Sponsors
 
