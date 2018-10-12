@@ -21,13 +21,13 @@ Remote Participation
 
 **REGISTRATION LINK**     
 \--------------------------------------   
-https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800   
+[https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800](https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800)   
 Registration deadline is set as Oct 15, but please register as soon as possible to help us plan the Hackathon better.
 
 **CALL FOR HACKS**   
 \--------------------------------------    
-Proposals can be submitted using the form here: https://goo.gl/forms/Wd0363sq9heiiFS72   
-Details and submission guidelines: https://7th-ndn-hackathon.named-data.net/cfh.html   
+Proposals can be submitted using the form here: [https://goo.gl/forms/Wd0363sq9heiiFS72](https://goo.gl/forms/Wd0363sq9heiiFS72)   
+Details and submission guidelines: [https://7th-ndn-hackathon.named-data.net/cfh.html](https://7th-ndn-hackathon.named-data.net/cfh.html)   
 
 **IMPORTANT DATES FOR HACKS**    
 \--------------------------------------    
