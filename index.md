@@ -13,12 +13,6 @@ We encourage projects that:
 
 ## How to Participate
 
-**CALL FOR HACKS**   
-\--------------------------------------     
-The 7th Named Data Networking (NDN) Hackathon   
-Oct 20-21, 2018   
-Remote Participation    
-
 **REGISTRATION LINK**     
 \--------------------------------------   
 [https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800](https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800)   
