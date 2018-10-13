@@ -25,13 +25,13 @@ Details and submission guidelines: [https://7th-ndn-hackathon.named-data.net/cfh
 
 **IMPORTANT DATES FOR HACKS**    
 \--------------------------------------    
-Submission deadline: Oct 12, 2018   
+Submission deadline : Oct 17, 2018   
 Acceptance notification: Oct 18, 2018   
 
 ## News
 
-- Oct 8, 2018: Hackathon date, submission deadline, and acceptance notification confirmed
-
+- Oct 8, 2018: Hackathon date, submission deadline, and acceptance notification confirmed.
+- Oct 13, 2018: Proposal submission deadline extended till Oct 17. 
 ## Sponsors
 
 [NDN Consortium](https://named-data.net/consortium/)
