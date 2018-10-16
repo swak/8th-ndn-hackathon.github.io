@@ -16,7 +16,7 @@ We encourage projects that:
 **REGISTRATION LINK**     
 \--------------------------------------   
 [https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800](https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800)   
-Registration deadline is set as Oct 15, but please register as soon as possible to help us plan the Hackathon better.
+Registration deadline is set as Oct 18, but please register as soon as possible to help us plan the Hackathon better.
 
 **CALL FOR HACKS**   
 \--------------------------------------    
