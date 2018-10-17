@@ -37,4 +37,4 @@ Source code
 
 ## (7) DEMO
 
-Live demo pr screenshots in the presentation (2 minutes max, hard limit)
+Live demo or screenshots in the presentation (2 minutes max, hard limit)
