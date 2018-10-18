@@ -485,7 +485,7 @@ Project Leads: Zhiyi Zhang
 - A live demo to show the difference of whether to have a trust policy or not.
 
 
-## 20. Named Reddit
+## 21. Named Reddit
   
 Project Leads: Ernest McCracken
 
@@ -503,7 +503,3 @@ Project Leads: Ernest McCracken
 
 **Expected outcomes**
 - A web application that enables reddit style posts as well as supporting a hierarchy of sub reddits instead of just a single level.
-
-
-
-
