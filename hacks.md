@@ -308,15 +308,7 @@ configure the trust policies of a device
     - E.g., Add one or a set of prefixes/devices into the authorized list to a service provided by the device
 - Requirement: C coding skills
 
-## 18. Why Fractalide
-
-Project Leads: Steward Mackenzie
-
-**Motivation and problem statement**
-
-[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)
-
-## 19. Development of Yang Data Model for NFD Mgmt. Protocol
+## 18. Development of Yang Data Model for NFD Mgmt. Protocol
 
 Project Leads: Rajendra Kumar
 
