@@ -10,7 +10,7 @@ title: Accepted Hacks
 
 ## 1. Certificate Support in esp8266ndn Library
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People new to NDN code development
@@ -52,7 +52,7 @@ This project adds a NDN Certificate v2 <https://named-data.net/doc/ndn-cxx/curre
 
 ## 2. Tiny Forwarder with esp8266ndn Library
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People with NDN code development experience
@@ -88,7 +88,7 @@ In the future, it's also possible to port the same design to NDN-RIOT.
 
 ## 3. HMAC and Merkle-Hash-Tree Signatures in ndn-cxx
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People new to NDN code development
@@ -120,7 +120,7 @@ With this signature type, when a producer creates multiple Data packets, it only
 
 ## 4. NDN File System without FUSE
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People with NDN code development experience
@@ -149,7 +149,7 @@ Project Leads: Junxiao Shi
 
 ## 5. Modernize ndn-js
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People new to NDN code development
@@ -180,7 +180,7 @@ This project is to modernize several aspects of ndn-js, so that it can work well
 
 ## 6. Packet03, Data Synchronization, and More in repo-sql
   
-Project Leads: Junxiao Shi
+Project Lead: Junxiao Shi
 
 **Targeted participant**
 - People with NDN code development experience
@@ -209,7 +209,7 @@ Project Leads: Junxiao Shi
 
 ## 7. Broadcast and ad-hoc faces in NFD for ad-hoc wireless networks.
   
-Project Leads: Md Ashiqur Rahman
+Project Lead: Md Ashiqur Rahman
 
 **Targeted participant**
 - People with NDN code development experience
@@ -229,7 +229,7 @@ Project Leads: Md Ashiqur Rahman
 
 ## 8. Interest Buffering
   
-Project Leads: Tianxiang Li
+Project Lead: Tianxiang Li
 
 **Targeted participant**
 - People new NDN code development 
@@ -248,7 +248,7 @@ Project Leads: Tianxiang Li
 
 ## 9. Self-learning Forwarding Strategy: NFD Implementation and Testing
   
-Project Leads: Teng Liang
+Project Lead: Teng Liang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -268,7 +268,7 @@ Project Leads: Teng Liang
 
 ## 10. NDN sign-on protocol implementation over BLE
 
-Project Leads: Yanbiao Li
+Project Lead: Yanbiao Li
 
 **Targeted participant**
 - People with NDN code development experience
@@ -287,7 +287,7 @@ Project Leads: Yanbiao Li
   
 ## 11. A use-case example APP using NDN-IoT package 
   
-Project Leads: Yanbiao Li
+Project Lead: Yanbiao Li
 
 **Targeted participant**
 - People with NDN code development experience
@@ -306,7 +306,7 @@ Project Leads: Yanbiao Li
 
 ## 12. Why Fractalide
   
-Project Leads: Stewart Mackenzie
+Project Lead: Stewart Mackenzie
 
 **Targeted participant**
 - People with NDN code development experience
@@ -325,7 +325,7 @@ Project Leads: Stewart Mackenzie
 
 ## 13. Development of Yang Data Model for NFD Mgmt. Protocol
   
-Project Leads: Rajender Kumar
+Project Lead: Rajender Kumar
 
 **Targeted participant**
 - People new NDN code development
@@ -346,7 +346,7 @@ Project Leads: Rajender Kumar
 
 ## 14. Mini-NDN documentation
   
-Project Leads: Ashlesh Gawande
+Project Lead: Ashlesh Gawande
 
 **Targeted participant**
 - People new to NDN code development
@@ -368,7 +368,7 @@ Project Leads: Ashlesh Gawande
 
 ## 15. 3D Visualization of NDN Traffic
   
-Project Leads: Alexander Monaco
+Project Lead: Alexander Monaco
 
 **Targeted participant**
 - People new to NDN code development
@@ -387,7 +387,7 @@ Project Leads: Alexander Monaco
 
 ## 16. Contribute to NDN IoT
   
-Project Leads: Zhiyi Zhang
+Project Lead: Zhiyi Zhang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -407,7 +407,7 @@ Project Leads: Zhiyi Zhang
 
 ## 17. Make NDN-RIOT + NDN-IoT pkg work on NRF52840
   
-Project Leads: Zhiyi Zhang
+Project Lead: Zhiyi Zhang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -428,7 +428,7 @@ on the new boards
 
 ## 18. An Android App to visualize the workflow in IoT
   
-Project Leads: Zhiyi Zhang
+Project Lead: Zhiyi Zhang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -448,7 +448,7 @@ Project Leads: Zhiyi Zhang
 
 ## 19. Refactor encoding and decoding in NDN-RIOT and make it more usable to developers
   
-Project Leads: Zhiyi Zhang
+Project Lead: Zhiyi Zhang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -467,7 +467,7 @@ Project Leads: Zhiyi Zhang
 
 ## 20. Schematized Trust in NDN-IoT
   
-Project Leads: Zhiyi Zhang
+Project Lead: Zhiyi Zhang
 
 **Targeted participant**
 - People with NDN code development experience
@@ -487,7 +487,7 @@ Project Leads: Zhiyi Zhang
 
 ## 21. Named Reddit
   
-Project Leads: Ernest McCracken
+Project Lead: Ernest McCracken
 
 **Targeted participant**
 - People new to NDN code development
