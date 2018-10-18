@@ -47,9 +47,9 @@ support broadcast and ad hoc wireless faces.
   
 ## 3. Interest Buffering
 
-**Motivation and Problem Statement**
-
 Project Lead: Tianxiang Li, UCLA
+
+**Motivation and Problem Statement**
 
 - Task
 
