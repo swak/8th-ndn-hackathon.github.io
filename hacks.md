@@ -31,7 +31,9 @@ This project adds a NDN Certificate v2 <https://named-data.net/doc/ndn-cxx/curre
 4. Implement a NDN Certificate encoder to create a `DataLite` from name, public key, and validity period, and then sign it with an existing `EcPrivateKey`.
 
 **Any specific tools or language**
-* Participant must have access to one ESP8266 or ESP32 microcontroller. * Participant must have access to a 2.4GHz WiFi network and an NFD node on this netw
+- Participant must have access to one ESP8266 or ESP32 microcontroller.
+- Participant must have access to a 2.4GHz WiFi network and an NFD node on this network. 
+- Participant should be able to read ndn-cxx code related to certificates.
 
 
 **Expected outcomes**
@@ -74,8 +76,8 @@ In the future, it's also possible to port the same design to NDN-RIOT.
 5. Through theoretical analysis as well as experiments, find out efficiency of the tiny forwarder: how much excess traffic is caused by impreciseness of PIT name matching and InterestLifetime.
 
 **Any specific tools or language**
-- Participant must have access to one ESP8266 or ESP32 microcontroller. * Participant must have access to three or more WiFi-capable NDN end hosts. These can be computers or microcontrollers.
-
+- Participant must have access to one ESP8266 or ESP32 microcontroller. 
+- Participant must have access to three or more WiFi-capable NDN end hosts. These can be computers or microcontrollers.
 
 **Expected outcomes**
 - Tiny forwarder demo:
@@ -141,6 +143,7 @@ Project Leads: Junxiao Shi
 
 **Any specific tools or language**
 - Participant must be familiar with either ndn-cxx or Common Client Libraries
+
 **Expected outcomes**
 - Show the result of listed tasks in simple console applications.
 
