@@ -12,6 +12,8 @@ title: Accepted Hacks
 
 Project Leads: Zhiyi Zhang, Yanbiao Li, Bo Chen, NDN-IOT
 
+### [Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/android%20-%20Zhiyi%20Zhang.pdf)
+
 **Motivation and Problem Statement**
 
 - Goal: An android app to work with NDN-RIOT system to get the status and
@@ -27,6 +29,8 @@ reply it’s status to the controller (Android Phone)
 ## 2. Broadcast and ad-hoc wireless faces in NFD
 
 Project Lead: Md Ashiqur Rahman, The University of Arizona
+
+[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Ashiq_ad-hoc%20-%20Md%20Ashiqur%20Rahman.pdf)
 
 **Motivation and Problem Statement**
 
@@ -310,10 +314,13 @@ Project Leads: Steward Mackenzie
 
 **Motivation and problem statement**
 
+[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)
 
 ## 19. Development of Yang Data Model for NFD Mgmt. Protocol
 
 Project Leads: Rajendra Kumar
+
+[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Yang_data_Model_NDN%20-%20Rajender%20Kumar.pdf)
 
 **Motivation and problem statement**
 
