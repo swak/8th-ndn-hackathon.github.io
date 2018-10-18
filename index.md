@@ -22,6 +22,7 @@ Registration deadline is set as Oct 18, but please register as soon as possible 
 \--------------------------------------    
 Proposals can be submitted using the form here: [https://goo.gl/forms/Wd0363sq9heiiFS72](https://goo.gl/forms/Wd0363sq9heiiFS72)   
 Details and submission guidelines: [https://7th-ndn-hackathon.named-data.net/cfh.html](https://7th-ndn-hackathon.named-data.net/cfh.html)   
+Doodle poll to select your project: [https://doodle.com/poll/bbq7bapzgh67skgn](https://doodle.com/poll/bbq7bapzgh67skgn)
 
 **PRIZES**   
 \--------------------------------------    
@@ -45,6 +46,7 @@ Acceptance notification: Oct 18, 2018
 - Oct 8, 2018: Hackathon date, submission deadline, and acceptance notification confirmed.
 - Oct 13, 2018: Proposal submission deadline extended till Oct 17. 
 - Oct 17, 2018: Exciting prizes anounced
+- Oct 18, 2018: Poll to select projects online
 
 ## Sponsors
 
