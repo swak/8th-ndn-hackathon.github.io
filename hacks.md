@@ -12,6 +12,8 @@ title: Accepted Hacks
   
 Project Lead: Junxiao Shi
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%201.pdf)**
+
 **Targeted participant**
 - People new to NDN code development
 
@@ -54,6 +56,8 @@ This project adds a NDN Certificate v2 <https://named-data.net/doc/ndn-cxx/curre
   
 Project Lead: Junxiao Shi
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%202.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -90,6 +94,8 @@ In the future, it's also possible to port the same design to NDN-RIOT.
   
 Project Lead: Junxiao Shi
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%203.pdf)**
+
 **Targeted participant**
 - People new to NDN code development
 
@@ -122,6 +128,8 @@ With this signature type, when a producer creates multiple Data packets, it only
   
 Project Lead: Junxiao Shi
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%204.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -150,6 +158,8 @@ Project Lead: Junxiao Shi
 ## 5. Modernize ndn-js
   
 Project Lead: Junxiao Shi
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%205.pdf)**
 
 **Targeted participant**
 - People new to NDN code development
@@ -182,6 +192,8 @@ This project is to modernize several aspects of ndn-js, so that it can work well
   
 Project Lead: Junxiao Shi
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%206.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -211,6 +223,8 @@ Project Lead: Junxiao Shi
   
 Project Lead: Md Ashiqur Rahman
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Ashiq_ad-hoc%20-%20Md%20Ashiqur%20Rahman.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -231,6 +245,8 @@ Project Lead: Md Ashiqur Rahman
   
 Project Lead: Tianxiang Li
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/interest-buffering%20-%20Tianxiang%20Li.pdf)**
+
 **Targeted participant**
 - People new NDN code development 
 
@@ -249,6 +265,8 @@ Project Lead: Tianxiang Li
 ## 9. Self-learning Forwarding Strategy: NFD Implementation and Testing
   
 Project Lead: Teng Liang
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-7th-hackathon%20-%20Teng%20Liang.pdf)**
 
 **Targeted participant**
 - People with NDN code development experience
@@ -270,6 +288,8 @@ Project Lead: Teng Liang
 
 Project Lead: Yanbiao Li
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-SignOn-BLE%20-%20Yanbiao%20Li.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -288,6 +308,8 @@ Project Lead: Yanbiao Li
 ## 11. A use-case example APP using NDN-IoT package 
   
 Project Lead: Yanbiao Li
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-IoT-App%20-%20Yanbiao%20Li.pdf)**
 
 **Targeted participant**
 - People with NDN code development experience
@@ -308,6 +330,8 @@ Project Lead: Yanbiao Li
   
 Project Lead: Stewart Mackenzie
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -326,6 +350,8 @@ Project Lead: Stewart Mackenzie
 ## 13. Development of Yang Data Model for NFD Mgmt. Protocol
   
 Project Lead: Rajender Kumar
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Yang_data_Model_NDN%20-%20Rajender%20Kumar.pdf)**
 
 **Targeted participant**
 - People new NDN code development
@@ -348,6 +374,8 @@ Project Lead: Rajender Kumar
   
 Project Lead: Ashlesh Gawande
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-template%20-%20Ashlesh%20Gawande.pdf)**
+
 **Targeted participant**
 - People new to NDN code development
 
@@ -369,6 +397,8 @@ Project Lead: Ashlesh Gawande
 ## 15. 3D Visualization of NDN Traffic
   
 Project Lead: Alexander Monaco
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-proposal%20-%20Alex%20Monaco.pdf)**
 
 **Targeted participant**
 - People new to NDN code development
@@ -409,6 +439,8 @@ Project Lead: Zhiyi Zhang
   
 Project Lead: Zhiyi Zhang
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/nrf52840%20-%20Zhiyi%20Zhang.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -430,6 +462,8 @@ on the new boards
   
 Project Lead: Zhiyi Zhang
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/android%20-%20Zhiyi%20Zhang.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -450,6 +484,8 @@ Project Lead: Zhiyi Zhang
   
 Project Lead: Zhiyi Zhang
 
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/refactor%20-%20Zhiyi%20Zhang.pdf)**
+
 **Targeted participant**
 - People with NDN code development experience
 
@@ -468,6 +504,8 @@ Project Lead: Zhiyi Zhang
 ## 20. Schematized Trust in NDN-IoT
   
 Project Lead: Zhiyi Zhang
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/schematized_trust%20-%20Zhiyi%20Zhang.pdf)**
 
 **Targeted participant**
 - People with NDN code development experience
