@@ -345,7 +345,7 @@ Project Lead: Stewart Mackenzie
 **Any specific tools or language**
 - Racket FFI
 
-**Expected outcomThe goal would be to create a simple fractalide application that utilized NDNes**
+**Expected outcomes**
 - We’ll have a functional library that allows racket users to build on Named Data Networking
 
 ## 13. Development of Yang Data Model for NFD Mgmt. Protocol
