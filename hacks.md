@@ -268,19 +268,21 @@ Project Lead: Teng Liang
 
 **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-7th-hackathon%20-%20Teng%20Liang.pdf)**
 
-**Targeted participant**
+**Targeted participant**  
 - People with NDN code development experience
 
-**How does your proposal benefit NDN?**
+**How does your proposal benefit NDN?**  
 - Self-learning is an important mechanism for NDN research/testing/deployment to achieve plug-and-play
 
-**Briefly describe the tasks**
+**Briefly describe the tasks**  
 - Finalize self-learning strategy implementation (redmine: #4279)
 - Test self-learning with integration-testing
-- Evaluate self-learning performance
+- Evaluate self-learning performance  
+
 **Any specific tools or language?**
 - C++, NFD development experience, or NDN-Android development experience
-**Expected outcomes**
+
+**Expected outcomes**  
 - Working code that can be merged to NFD
 - Evaluation results
 
