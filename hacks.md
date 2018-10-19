@@ -326,7 +326,7 @@ Project Lead: Yanbiao Li
 **Expected outcomes**
 - The Controller App on phone and the Device App on nRF85240 boards
 
-## 12. Why Fractalide
+## 12. Fractalide - An NDN Browser
   
 Project Lead: Stewart Mackenzie
 
@@ -339,13 +339,14 @@ Project Lead: Stewart Mackenzie
 - Just as TCP/IP became popular because of the HTTP browser so we hope NDN will become popular with an NDN browser
 
 **Briefly describe the tasks**
-- either: create a new NDN in fractalide or use racket FFI and embed an existing NDN library into fractalide node
+- Fork this repository https://github.com/fractalide/rkt-ndn
+- Build a racket language binding to Named Data Networking library
 
 **Any specific tools or language**
-- Racket, Nix
+- Racket FFI
 
 **Expected outcomThe goal would be to create a simple fractalide application that utilized NDNes**
-- The goal would be to create a simple fractalide application that utilized NDN 
+- We’ll have a functional library that allows racket users to build on Named Data Networking
 
 ## 13. Development of Yang Data Model for NFD Mgmt. Protocol
   
