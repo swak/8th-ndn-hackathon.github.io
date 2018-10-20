@@ -8,7 +8,7 @@ title: Accepted Hacks
 * TOC
 {:toc}
 
-## 1. Certificate Support in esp8266ndn Library
+## 1. <del>~~Certificate Support in esp8266ndn Library~~</del>
   
 Project Lead: Junxiao Shi
 
@@ -52,7 +52,7 @@ This project adds a NDN Certificate v2 <https://named-data.net/doc/ndn-cxx/curre
     2. Operator executes a consumer program on the computer (written in ndn-cxx or PyNDN or similar) to retrieve microcontroller's certificate and a Data packet signed by its private key.
     3. The consumer program decodes the certificate and verifies the Data packet against the public key embedded in the certificate, and then prints verification result on standard output.
 
-## 2. Tiny Forwarder with esp8266ndn Library
+## 2. <del>Tiny Forwarder with esp8266ndn Library</del>
   
 Project Lead: Junxiao Shi
 
@@ -90,7 +90,7 @@ In the future, it's also possible to port the same design to NDN-RIOT.
     2. If the participant has a WiFi NIC capable of monitor mode, show how the forwarder works via WiFi monitoring. Otherwise, show how the forwarder works using serial console logs.
     
 
-## 3. HMAC and Merkle-Hash-Tree Signatures in ndn-cxx
+## 3. <del>HMAC and Merkle-Hash-Tree Signatures in ndn-cxx</del>
   
 Project Lead: Junxiao Shi
 
@@ -124,7 +124,7 @@ With this signature type, when a producer creates multiple Data packets, it only
 - Show the result of listed tasks in two simple console programs.
 
 
-## 4. NDN File System without FUSE
+## 4. <del>NDN File System without FUSE</del>
   
 Project Lead: Junxiao Shi
 
@@ -188,7 +188,7 @@ This project is to modernize several aspects of ndn-js, so that it can work well
 **Expected outcomes**
 - Show the result of listed tasks in a simple web application.
 
-## 6. Packet03, Data Synchronization, and More in repo-sql
+## 6. <del>Packet03, Data Synchronization, and More in repo-sql</del>
   
 Project Lead: Junxiao Shi
 
@@ -219,7 +219,7 @@ Project Lead: Junxiao Shi
 **Expected outcomes**
 - Show the result of listed tasks in the console.
 
-## 7. Broadcast and ad-hoc faces in NFD for ad-hoc wireless networks.
+## 7. <del>Broadcast and ad-hoc faces in NFD for ad-hoc wireless networks.</del>
   
 Project Lead: Md Ashiqur Rahman
 
@@ -286,7 +286,7 @@ Project Lead: Teng Liang
 - Working code that can be merged to NFD
 - Evaluation results
 
-## 10. NDN sign-on protocol implementation over BLE
+## 10. <del>NDN sign-on protocol implementation over BLE</del>
 
 Project Lead: Yanbiao Li
 
@@ -307,7 +307,7 @@ Project Lead: Yanbiao Li
 **Expected outcomes**
 - sign-on over BLE
   
-## 11. A use-case example APP using NDN-IoT package 
+## 11. <del>A use-case example APP using NDN-IoT package</del>
   
 Project Lead: Yanbiao Li
 
@@ -350,7 +350,7 @@ Project Lead: Stewart Mackenzie
 **Expected outcomes**
 - We’ll have a functional library that allows racket users to build on Named Data Networking
 
-## 13. Development of Yang Data Model for NFD Mgmt. Protocol
+## 13. <del>Development of Yang Data Model for NFD Mgmt. Protocol</del>
   
 Project Lead: Rajender Kumar
 
@@ -418,7 +418,7 @@ Project Lead: Alexander Monaco
 **Expected outcomes**
 - A simple visualization that can be further developed into a working 3D visualization prototype. 
 
-## 16. Contribute to NDN IoT
+## 16. <del>Contribute to NDN IoT</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -438,7 +438,7 @@ Project Lead: Zhiyi Zhang
 - Live Demo to show the system work.
 
 
-## 17. Make NDN-RIOT + NDN-IoT pkg work on NRF52840
+## 17. <del>Make NDN-RIOT + NDN-IoT pkg work on NRF52840</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -461,7 +461,7 @@ on the new boards
 - Have two nrf52840 boards talk to each other and have a live demo
 
 
-## 18. An Android App to visualize the workflow in IoT
+## 18. <del>An Android App to visualize the workflow in IoT</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -504,7 +504,7 @@ Project Lead: Zhiyi Zhang
 **Expected outcomes**
 - Unit tests to show everything is fine
 
-## 20. Schematized Trust in NDN-IoT
+## 20. <del>Schematized Trust in NDN-IoT</del>
   
 Project Lead: Zhiyi Zhang
 
