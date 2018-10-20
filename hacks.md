@@ -8,7 +8,220 @@ title: Accepted Hacks
 * TOC
 {:toc}
 
-## 1. <del>~~Certificate Support in esp8266ndn Library~~</del>
+
+## 1. Modernize ndn-js
+  
+Project Lead: Junxiao Shi
+
+Project Members: Akshay, Mheni Merzouki, Omar Ilias El Mimouni
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%205.pdf)**
+
+**Targeted participant**
+- People new to NDN code development
+
+**How does your proposal benefit NDN?**
+- ndn-js <https://github.com/named-data/ndn-js> is a JavaScript client library for Named Data Networking. It works with both NodeJS and browsers.
+
+- The browser edition of ndn-js was developed in 2013. Since then, the JavaScript ecosystem has evolved greatly, but ndn-js has not been able to keep up.This causes several difficulties when integrating ndn-js in a modern JavaScript project.
+This project is to modernize several aspects of ndn-js, so that it can work well in today's JavaScript ecosystem.
+
+**Briefly describe the tasks**
+1. Replace Waf build process with a modern bundler such as Brunch or Webpack.
+   The goal is to allow a web application to `require("ndn-js")` and have the bundler do the rest.
+   The ability of building a self-contained `ndn.js` must be preserved.
+   If feasible, remove the copied dependencies in `contrib/`, and import them from NPM.
+2. Provide TypeScript declaration file to enable type checking of ndn-js APIs in a TypeScript project.
+   These commonly used classes should be given priority: `Name Name.Component Interest Data NetworkNack Blob Face`.
+   Others may be declared as `any` type.
+3. Add Promise-based APIs as an alternate to callback-based APIs.
+   These functions need an alternate that returns a Promise: `Face.expressInterest Face.registerPrefix KeyChain.createIdentityV2`.
+   These functions need an alternate that takes a callback whose return value is a Promise: `Face.setInterestFilter Face.registerPrefix`.
+   
+**Any specific tools or language**
+- Participant must be able to write JavaScript
+
+**Expected outcomes**
+- Show the result of listed tasks in a simple web application.
+
+
+## 2. Interest Buffering
+  
+Project Lead: Tianxiang Li
+
+Project Members: Spyros Mastorakis, Xinyu Ma, Klaus Schneider
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/interest-buffering%20-%20Tianxiang%20Li.pdf)**
+
+**Targeted participant**
+- People new NDN code development 
+
+**How does your proposal benefit NDN?**
+- Enable support for Interest buffering and face signaling in NFD. Allows better forwarding strategies based on face status.
+
+**Briefly describe the tasks**
+- Allow Interest Buffering in PIT and enable face status signaling to determine whether to send out an Interest
+
+**Any specific tools or language?**
+- NFD, ndn-cxx, C++
+
+**Expected outcomes**
+- Enable support for Interest buffering and face signaling in NFD
+
+
+## 3. Self-learning Forwarding Strategy: NFD Implementation and Testing
+  
+Project Lead: Teng Liang
+
+Project Members: Md Ashiqur Rahman, Ju Pan
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-7th-hackathon%20-%20Teng%20Liang.pdf)**
+
+**Targeted participant**  
+- People with NDN code development experience
+
+**How does your proposal benefit NDN?**  
+- Self-learning is an important mechanism for NDN research/testing/deployment to achieve plug-and-play
+
+**Briefly describe the tasks**  
+- Finalize self-learning strategy implementation (redmine: #4279)
+- Test self-learning with integration-testing
+- Evaluate self-learning performance  
+
+**Any specific tools or language?**
+- C++, NFD development experience, or NDN-Android development experience
+
+**Expected outcomes**  
+- Working code that can be merged to NFD
+- Evaluation results
+
+
+
+## 4. Fractalide - An NDN Browser
+  
+Project Lead: Stewart Mackenzie
+
+Project Members: Claes Wallin
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
+
+**Targeted participant**
+- People with NDN code development experience
+
+**How does your proposal benefit NDN?**
+- Just as TCP/IP became popular because of the HTTP browser so we hope NDN will become popular with an NDN browser
+
+**Briefly describe the tasks**
+- Fork this repository https://github.com/fractalide/rkt-ndn
+- Build a racket language binding to Named Data Networking library
+
+**Any specific tools or language**
+- Racket FFI
+
+**Expected outcomes**
+- We’ll have a functional library that allows racket users to build on Named Data Networking
+
+
+## 5. Mini-NDN documentation
+  
+Project Lead: Ashlesh Gawande
+
+Project Members: Alexander Lane
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-template%20-%20Ashlesh%20Gawande.pdf)**
+
+**Targeted participant**
+- People new to NDN code development
+
+**How does your proposal benefit NDN?**
+- Lower barrier to getting started with Mini-NDN
+
+**Briefly describe the tasks**
+- Choose a documentation standard and setup auto generation
+- Identify what documentation can be updated and what needs to be added (look at mailing list)
+- Verify + update existing doc and add new documentation
+
+**Any specific tools or language**
+- Mini-NDN, Mininet, Python, Probably Sphinx/Doxygen
+
+**Expected outcomes**
+- Updated documentation which is automatically mirrored to the website
+
+
+## 6. 3D Visualization of NDN Traffic
+  
+Project Lead: Alexander Monaco
+
+Project Members: Alex Afanasyev, Tarannum Islam, Rajender Kumar
+
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-proposal%20-%20Alex%20Monaco.pdf)**
+
+**Targeted participant**
+- People new to NDN code development
+
+**How does your proposal benefit NDN?**
+- The understanding of traffic flow is important in development of resilient network tools. 3D NDN Visualization could aid in providing a more efficient method of analyzing and interpreting traffic data. 
+
+**Briefly describe the tasks**
+- Investigate existing tools for identifying and analyzing network traffic, use available network data to evaluate promising tools, and attempt to create a visualization using the output of these tools.
+
+**Any specific tools or language**
+- Since the visualization will be developed using the Unity engine, the main language that will be used will be C#
+
+**Expected outcomes**
+- A simple visualization that can be further developed into a working 3D visualization prototype. 
+
+
+
+## 7. Refactor encoding and decoding in NDN-RIOT and make it more usable to developers
+  
+Project Lead: Zhiyi Zhang
+
+Project Members: Tianyuan Yu, 
+
+**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/refactor%20-%20Zhiyi%20Zhang.pdf)**
+
+**Targeted participant**
+- People with NDN code development experience
+
+**How does your proposal benefit NDN?**
+- Make NDN-RIOT a better library to use
+
+**Briefly describe the tasks**
+- We already re-implemented the basic block 0.3 encoding/decoding APIs, name APIs, Interest APIs. Refactor other modules (Data, Certificate, etc.)
+
+**Any specific tools or language**
+- C
+
+**Expected outcomes**
+- Unit tests to show everything is fine
+
+
+## 8. Named Reddit
+  
+Project Lead: Ernest McCracken
+
+Project Members: Tianxing Ma, Saurab Dulal
+
+
+**Targeted participant**
+- People new to NDN code development
+
+**How does your proposal benefit NDN?**
+- Contribution to web based browsing of NDN supported content
+
+**Briefly describe the tasks**
+- Web front end portal, React server serving static web content as well as servicing ndn-js requests.  Support for simple API commands.
+
+**Any specific tools or language**
+- html, reactJS, ndn-js, json based db
+
+**Expected outcomes**
+- A web application that enables reddit style posts as well as supporting a hierarchy of sub reddits instead of just a single level.
+
+
+## <del>~~Certificate Support in esp8266ndn Library~~</del>
   
 Project Lead: Junxiao Shi
 
@@ -52,7 +265,7 @@ This project adds a NDN Certificate v2 <https://named-data.net/doc/ndn-cxx/curre
     2. Operator executes a consumer program on the computer (written in ndn-cxx or PyNDN or similar) to retrieve microcontroller's certificate and a Data packet signed by its private key.
     3. The consumer program decodes the certificate and verifies the Data packet against the public key embedded in the certificate, and then prints verification result on standard output.
 
-## 2. <del>Tiny Forwarder with esp8266ndn Library</del>
+## <del>Tiny Forwarder with esp8266ndn Library</del>
   
 Project Lead: Junxiao Shi
 
@@ -90,7 +303,7 @@ In the future, it's also possible to port the same design to NDN-RIOT.
     2. If the participant has a WiFi NIC capable of monitor mode, show how the forwarder works via WiFi monitoring. Otherwise, show how the forwarder works using serial console logs.
     
 
-## 3. <del>HMAC and Merkle-Hash-Tree Signatures in ndn-cxx</del>
+## <del>HMAC and Merkle-Hash-Tree Signatures in ndn-cxx</del>
   
 Project Lead: Junxiao Shi
 
@@ -124,7 +337,7 @@ With this signature type, when a producer creates multiple Data packets, it only
 - Show the result of listed tasks in two simple console programs.
 
 
-## 4. <del>NDN File System without FUSE</del>
+## <del>NDN File System without FUSE</del>
   
 Project Lead: Junxiao Shi
 
@@ -155,40 +368,7 @@ Project Lead: Junxiao Shi
 **Expected outcomes**
 - Show the result of listed tasks in simple console applications.
 
-## 5. Modernize ndn-js
-  
-Project Lead: Junxiao Shi
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/pitch-slides%20-%20Junxiao%20Shi%20(3)%20-%205.pdf)**
-
-**Targeted participant**
-- People new to NDN code development
-
-**How does your proposal benefit NDN?**
-- ndn-js <https://github.com/named-data/ndn-js> is a JavaScript client library for Named Data Networking. It works with both NodeJS and browsers.
-
-- The browser edition of ndn-js was developed in 2013. Since then, the JavaScript ecosystem has evolved greatly, but ndn-js has not been able to keep up.This causes several difficulties when integrating ndn-js in a modern JavaScript project.
-This project is to modernize several aspects of ndn-js, so that it can work well in today's JavaScript ecosystem.
-
-**Briefly describe the tasks**
-1. Replace Waf build process with a modern bundler such as Brunch or Webpack.
-   The goal is to allow a web application to `require("ndn-js")` and have the bundler do the rest.
-   The ability of building a self-contained `ndn.js` must be preserved.
-   If feasible, remove the copied dependencies in `contrib/`, and import them from NPM.
-2. Provide TypeScript declaration file to enable type checking of ndn-js APIs in a TypeScript project.
-   These commonly used classes should be given priority: `Name Name.Component Interest Data NetworkNack Blob Face`.
-   Others may be declared as `any` type.
-3. Add Promise-based APIs as an alternate to callback-based APIs.
-   These functions need an alternate that returns a Promise: `Face.expressInterest Face.registerPrefix KeyChain.createIdentityV2`.
-   These functions need an alternate that takes a callback whose return value is a Promise: `Face.setInterestFilter Face.registerPrefix`.
-   
-**Any specific tools or language**
-- Participant must be able to write JavaScript
-
-**Expected outcomes**
-- Show the result of listed tasks in a simple web application.
-
-## 6. <del>Packet03, Data Synchronization, and More in repo-sql</del>
+## <del>Packet03, Data Synchronization, and More in repo-sql</del>
   
 Project Lead: Junxiao Shi
 
@@ -219,7 +399,7 @@ Project Lead: Junxiao Shi
 **Expected outcomes**
 - Show the result of listed tasks in the console.
 
-## 7. <del>Broadcast and ad-hoc faces in NFD for ad-hoc wireless networks.</del>
+## <del>Broadcast and ad-hoc faces in NFD for ad-hoc wireless networks.</del>
   
 Project Lead: Md Ashiqur Rahman
 
@@ -241,52 +421,7 @@ Project Lead: Md Ashiqur Rahman
 **Expected outcomes**
 - To have support for broadcast and wireless ad-hoc faces in NFD.
 
-## 8. Interest Buffering
-  
-Project Lead: Tianxiang Li
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/interest-buffering%20-%20Tianxiang%20Li.pdf)**
-
-**Targeted participant**
-- People new NDN code development 
-
-**How does your proposal benefit NDN?**
-- Enable support for Interest buffering and face signaling in NFD. Allows better forwarding strategies based on face status.
-
-**Briefly describe the tasks**
-- Allow Interest Buffering in PIT and enable face status signaling to determine whether to send out an Interest
-
-**Any specific tools or language?**
-- NFD, ndn-cxx, C++
-
-**Expected outcomes**
-- Enable support for Interest buffering and face signaling in NFD
-
-## 9. Self-learning Forwarding Strategy: NFD Implementation and Testing
-  
-Project Lead: Teng Liang
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-7th-hackathon%20-%20Teng%20Liang.pdf)**
-
-**Targeted participant**  
-- People with NDN code development experience
-
-**How does your proposal benefit NDN?**  
-- Self-learning is an important mechanism for NDN research/testing/deployment to achieve plug-and-play
-
-**Briefly describe the tasks**  
-- Finalize self-learning strategy implementation (redmine: #4279)
-- Test self-learning with integration-testing
-- Evaluate self-learning performance  
-
-**Any specific tools or language?**
-- C++, NFD development experience, or NDN-Android development experience
-
-**Expected outcomes**  
-- Working code that can be merged to NFD
-- Evaluation results
-
-## 10. <del>NDN sign-on protocol implementation over BLE</del>
+## <del>NDN sign-on protocol implementation over BLE</del>
 
 Project Lead: Yanbiao Li
 
@@ -307,7 +442,7 @@ Project Lead: Yanbiao Li
 **Expected outcomes**
 - sign-on over BLE
   
-## 11. <del>A use-case example APP using NDN-IoT package</del>
+## <del>A use-case example APP using NDN-IoT package</del>
   
 Project Lead: Yanbiao Li
 
@@ -328,29 +463,7 @@ Project Lead: Yanbiao Li
 **Expected outcomes**
 - The Controller App on phone and the Device App on nRF85240 boards
 
-## 12. Fractalide - An NDN Browser
-  
-Project Lead: Stewart Mackenzie
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
-
-**Targeted participant**
-- People with NDN code development experience
-
-**How does your proposal benefit NDN?**
-- Just as TCP/IP became popular because of the HTTP browser so we hope NDN will become popular with an NDN browser
-
-**Briefly describe the tasks**
-- Fork this repository https://github.com/fractalide/rkt-ndn
-- Build a racket language binding to Named Data Networking library
-
-**Any specific tools or language**
-- Racket FFI
-
-**Expected outcomes**
-- We’ll have a functional library that allows racket users to build on Named Data Networking
-
-## 13. <del>Development of Yang Data Model for NFD Mgmt. Protocol</del>
+## <del>Development of Yang Data Model for NFD Mgmt. Protocol</del>
   
 Project Lead: Rajender Kumar
 
@@ -373,52 +486,7 @@ Project Lead: Rajender Kumar
 **Expected outcomes**
 - Yang data model for current NFD management protocol
 
-## 14. Mini-NDN documentation
-  
-Project Lead: Ashlesh Gawande
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-template%20-%20Ashlesh%20Gawande.pdf)**
-
-**Targeted participant**
-- People new to NDN code development
-
-**How does your proposal benefit NDN?**
-- Lower barrier to getting started with Mini-NDN
-
-**Briefly describe the tasks**
-- Choose a documentation standard and setup auto generation
-- Identify what documentation can be updated and what needs to be added (look at mailing list)
-- Verify + update existing doc and add new documentation
-
-**Any specific tools or language**
-- Mini-NDN, Mininet, Python, Probably Sphinx/Doxygen
-
-**Expected outcomes**
-- Updated documentation which is automatically mirrored to the website
-
-
-## 15. 3D Visualization of NDN Traffic
-  
-Project Lead: Alexander Monaco
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/ndn-hackathon-proposal%20-%20Alex%20Monaco.pdf)**
-
-**Targeted participant**
-- People new to NDN code development
-
-**How does your proposal benefit NDN?**
-- The understanding of traffic flow is important in development of resilient network tools. 3D NDN Visualization could aid in providing a more efficient method of analyzing and interpreting traffic data. 
-
-**Briefly describe the tasks**
-- Investigate existing tools for identifying and analyzing network traffic, use available network data to evaluate promising tools, and attempt to create a visualization using the output of these tools.
-
-**Any specific tools or language**
-- Since the visualization will be developed using the Unity engine, the main language that will be used will be C#
-
-**Expected outcomes**
-- A simple visualization that can be further developed into a working 3D visualization prototype. 
-
-## 16. <del>Contribute to NDN IoT</del>
+## <del>Contribute to NDN IoT</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -438,7 +506,7 @@ Project Lead: Zhiyi Zhang
 - Live Demo to show the system work.
 
 
-## 17. <del>Make NDN-RIOT + NDN-IoT pkg work on NRF52840</del>
+## <del>Make NDN-RIOT + NDN-IoT pkg work on NRF52840</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -461,7 +529,7 @@ on the new boards
 - Have two nrf52840 boards talk to each other and have a live demo
 
 
-## 18. <del>An Android App to visualize the workflow in IoT</del>
+## <del>An Android App to visualize the workflow in IoT</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -483,28 +551,7 @@ Project Lead: Zhiyi Zhang
 - Live demo to show the app can visualize the status
 
 
-## 19. Refactor encoding and decoding in NDN-RIOT and make it more usable to developers
-  
-Project Lead: Zhiyi Zhang
-
-**[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/refactor%20-%20Zhiyi%20Zhang.pdf)**
-
-**Targeted participant**
-- People with NDN code development experience
-
-**How does your proposal benefit NDN?**
-- Make NDN-RIOT a better library to use
-
-**Briefly describe the tasks**
-- We already re-implemented the basic block 0.3 encoding/decoding APIs, name APIs, Interest APIs. Refactor other modules (Data, Certificate, etc.)
-
-**Any specific tools or language**
-- C
-
-**Expected outcomes**
-- Unit tests to show everything is fine
-
-## 20. <del>Schematized Trust in NDN-IoT</del>
+## <del>Schematized Trust in NDN-IoT</del>
   
 Project Lead: Zhiyi Zhang
 
@@ -526,21 +573,3 @@ Project Lead: Zhiyi Zhang
 - A live demo to show the difference of whether to have a trust policy or not.
 
 
-## 21. Named Reddit
-  
-Project Lead: Ernest McCracken
-
-**Targeted participant**
-- People new to NDN code development
-
-**How does your proposal benefit NDN?**
-- Contribution to web based browsing of NDN supported content
-
-**Briefly describe the tasks**
-- Web front end portal, React server serving static web content as well as servicing ndn-js requests.  Support for simple API commands.
-
-**Any specific tools or language**
-- html, reactJS, ndn-js, json based db
-
-**Expected outcomes**
-- A web application that enables reddit style posts as well as supporting a hierarchy of sub reddits instead of just a single level.
