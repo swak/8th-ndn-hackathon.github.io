@@ -178,7 +178,7 @@ Project Members: Alex Afanasyev, Tarannum Islam, Rajender Kumar
   
 Project Lead: Zhiyi Zhang
 
-Project Members: Tianyuan Yu, 
+Project Members: Tianyuan Yu, Bo Chen, Weijia Yuan
 
 **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/refactor%20-%20Zhiyi%20Zhang.pdf)**
 
