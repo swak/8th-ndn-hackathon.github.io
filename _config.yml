@@ -63,7 +63,7 @@ navbar_list:
   link: /judging.html
 
 asides:
-    github: false
+    github: true
     tweets: false
     archive_tabs: false
 
