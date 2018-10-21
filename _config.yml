@@ -16,9 +16,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: Oct 17, 2018
+          date: <del> Oct 17, 2018 </del>
         - name: Acceptance notification
-          date: Oct 18, 2018
+          date: <del> Oct 18, 2018 </del>
 
 # Configuration for permalink
 permalink: /:page.html
