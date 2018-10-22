@@ -15,7 +15,7 @@ Project Lead: Junxiao Shi
 
 Project Members: Akshay, Mheni Merzouki, Omar Ilias El Mimouni
 
-## **[Slides](https://github.com/7th-ndn-hackathon/modernize-ndnjs/blob/master/README.md)**
+### **[Slides](https://github.com/7th-ndn-hackathon/modernize-ndnjs/blob/master/README.md)**
 
 **Targeted participant**
 - People new to NDN code development
@@ -51,7 +51,7 @@ Project Lead: Tianxiang Li (UCLA)
 
 Project Members: Spyros Mastorakis (UCLA), Xinyu Ma, Klaus Schneider
 
-## **[Slides](https://docs.google.com/presentation/d/1QwbaS0EZ-7x4FhmzX-5bhb5a0Z01EcetlbbXjvVR8zk/edit?usp=sharing)**
+### **[Slides](https://docs.google.com/presentation/d/1QwbaS0EZ-7x4FhmzX-5bhb5a0Z01EcetlbbXjvVR8zk/edit?usp=sharing)**
 
 **Targeted participant**
 - People new NDN code development 
@@ -75,7 +75,7 @@ Project Lead: Teng Liang (Arizona)
 
 Project Members: Md Ashiqur Rahman (Arizona), Ju Pan (Arizona)
 
-## **[Slides](https://docs.google.com/presentation/d/15p6E4KOiw6iL3AhdDeeY-_k7pQgdqtQ9IgBI-Ob8k8w/edit#slide=id.p)**
+### **[Slides](https://docs.google.com/presentation/d/15p6E4KOiw6iL3AhdDeeY-_k7pQgdqtQ9IgBI-Ob8k8w/edit#slide=id.p)**
 
 **Targeted participant**  
 - People with NDN code development experience
@@ -103,7 +103,7 @@ Project Lead: Stewart Mackenzie
 
 Project Members: Claes Wallin
 
-## **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
+### **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
 
 **Targeted participant**
 - People with NDN code development experience
@@ -128,7 +128,7 @@ Project Lead: Ashlesh Gawande (UofM)
 
 Project Members: Alexander Lane (UofM)
 
-## **[Slides](https://docs.google.com/presentation/d/1lK8g1_Njf6Sg9tystirL2W8IYtCmv8svS_6_YmM8cO0/edit#slide=id.g44acded8c6_2_55)**
+### **[Slides](https://docs.google.com/presentation/d/1lK8g1_Njf6Sg9tystirL2W8IYtCmv8svS_6_YmM8cO0/edit#slide=id.g44acded8c6_2_55)**
 
 **Targeted participant**
 - People new to NDN code development
@@ -155,7 +155,7 @@ Project Lead: Alexander Monaco
 Project Members: Alex Afanasyev, Tarannum Islam, Rajender Kumar
 
 
-## **[Slides](https://www.dropbox.com/s/1g1jpigkm8hrxip/3d-viz.pptx?dl=0)**
+### **[Slides](https://www.dropbox.com/s/1g1jpigkm8hrxip/3d-viz.pptx?dl=0)**
 
 **Targeted participant**
 - People new to NDN code development
@@ -180,7 +180,7 @@ Project Lead: Zhiyi Zhang
 
 Project Members: Tianyuan Yu, Bo Chen, Weijia Yuan
 
-## **[Slides](https://docs.google.com/presentation/d/1kCr13NbT7H3d1QO7VyV69-Jrg6gh86uD79ZJ2Wn_BMQ/edit#slide=id.g44ad830ee9_2_75)**
+### **[Slides](https://docs.google.com/presentation/d/1kCr13NbT7H3d1QO7VyV69-Jrg6gh86uD79ZJ2Wn_BMQ/edit#slide=id.g44ad830ee9_2_75)**
 
 **Targeted participant**
 - People with NDN code development experience
@@ -204,7 +204,7 @@ Project Lead: Ernest McCracken
 
 Project Members: Tianxing Ma, Saurab Dulal
 
-## **[Slides](https://docs.google.com/presentation/d/10B7US38NbLciBemyKgiwclUHHaYQJR7zFAR0nXt1B08/edit#slide=id.p)**
+### **[Slides](https://docs.google.com/presentation/d/10B7US38NbLciBemyKgiwclUHHaYQJR7zFAR0nXt1B08/edit#slide=id.p)**
 
 **Targeted participant**
 - People new to NDN code development
