@@ -103,7 +103,7 @@ Project Lead: Stewart Mackenzie (Fractalide)
 
 Project Members: Claes Wallin (Fractalide)
 
-### **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
+### **[Slides](https://github.com/7th-ndn-hackathon/rkt-ndn/blob/master/Team-Fractalide-rkt-ndn-7th-ndn-hackathon.pdf)**
 
 **Targeted participant**
 - People with NDN code development experience
