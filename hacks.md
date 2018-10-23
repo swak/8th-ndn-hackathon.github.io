@@ -11,9 +11,9 @@ title: Accepted Hacks
 
 ## 1. Modernize ndn-js
   
-Project Lead: Junxiao Shi 
+Project Lead: Junxiao Shi (NIST)
 
-Project Members: Akshay, Mheni Merzouki, Omar Ilias El Mimouni
+Project Members: Mheni Merzouki (NIST), Omar Ilias El Mimouni (NIST)
 
 ### **[Slides](https://github.com/7th-ndn-hackathon/modernize-ndnjs/blob/master/README.md)**
 
@@ -49,7 +49,7 @@ This project is to modernize several aspects of ndn-js, so that it can work well
   
 Project Lead: Tianxiang Li (UCLA)
 
-Project Members: Spyros Mastorakis (UCLA), Xinyu Ma, Klaus Schneider
+Project Members: Spyros Mastorakis (UCLA), Xinyu Ma, Klaus Schneider (Arizona)
 
 ### **[Slides](https://docs.google.com/presentation/d/1QwbaS0EZ-7x4FhmzX-5bhb5a0Z01EcetlbbXjvVR8zk/edit?usp=sharing)**
 
@@ -99,9 +99,9 @@ Project Members: Md Ashiqur Rahman (Arizona), Ju Pan (Arizona)
 
 ## 4. Fractalide - An NDN Browser
   
-Project Lead: Stewart Mackenzie
+Project Lead: Stewart Mackenzie (Fractalide)
 
-Project Members: Claes Wallin
+Project Members: Claes Wallin (Fractalide)
 
 ### **[Slides](https://github.com/7th-ndn-hackathon/7th-ndn-hackathon.github.io/blob/source/_assets/files/Why%20Fractalide%20(1)%20-%20stewart%20mackenzie.pdf)**
 
@@ -124,9 +124,9 @@ Project Members: Claes Wallin
 
 ## 5. Mini-NDN documentation
   
-Project Lead: Ashlesh Gawande (UofM)
+Project Lead: Ashlesh Gawande (Memphis)
 
-Project Members: Alexander Lane (UofM)
+Project Members: Alexander Lane (Memphis)
 
 ### **[Slides](https://docs.google.com/presentation/d/1lK8g1_Njf6Sg9tystirL2W8IYtCmv8svS_6_YmM8cO0/edit#slide=id.g44acded8c6_2_55)**
 
@@ -150,9 +150,9 @@ Project Members: Alexander Lane (UofM)
 
 ## 6. 3D Visualization of NDN Traffic
   
-Project Lead: Alexander Monaco
+Project Lead: Alexander Monaco (FIU)
 
-Project Members: Alex Afanasyev, Tarannum Islam, Rajender Kumar
+Project Members: Alex Afanasyev (FIU), Tarannum Islam (FIU), Rajender Kumar (FIU)
 
 
 ### **[Slides](https://www.dropbox.com/s/1g1jpigkm8hrxip/3d-viz.pptx?dl=0)**
@@ -200,9 +200,9 @@ Project Members: Tianyuan Yu, Bo Chen, Weijia Yuan
 
 ## 8. Named Reddit
   
-Project Lead: Ernest McCracken
+Project Lead: Ernest McCracken (Memphis)
 
-Project Members: Tianxing Ma, Saurab Dulal
+Project Members: Tianxing Ma (Memphis), Saurab Dulal (Memphis)
 
 ### **[Slides](https://docs.google.com/presentation/d/10B7US38NbLciBemyKgiwclUHHaYQJR7zFAR0nXt1B08/edit#slide=id.p)**
 
