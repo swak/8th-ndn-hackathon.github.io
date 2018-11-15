@@ -17,13 +17,13 @@ We encourage projects that:
 Project Lead: Junxiao Shi (NIST)   
 Project Members: Mheni Merzouki (NIST), Omar Ilias El Mimouni (NIST)    
 
-#### Second prize:  IOT development package
+#### Second Prize:  IOT development package
 *Refactor NDN-RIOT*   
   
 Project Lead: Zhiyi Zhang  
 Project Members: Tianyuan Yu, Bo Chen, Weijia Yuan  
 
-#### Third prize: USB WiFi Adapter
+#### Third Prize: USB WiFi Adapter
 *Named Reddit and Interest Buffering*  
   
 *Named Reddit*  
