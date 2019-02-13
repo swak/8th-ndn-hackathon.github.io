@@ -3,7 +3,7 @@ layout: page
 title: Program
 ---
 
-As this is a remote hackathon, participants can work from their own comfortable place.
+The hackathon will take place in UCLA. <placeholder for now>
 
 ## Saturday, Oct 20, 2018
 

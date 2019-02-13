@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to 7th NDN Hackathon - Virtual Hackathon !!! 
+title: Welcome to 8th NDN Hackathon
 ---
  
 We encourage projects that:
