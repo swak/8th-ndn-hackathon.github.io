@@ -7,28 +7,27 @@ highlighter: rouge
 markdown: kramdown
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'vendor']
 
-url: http://7th-ndn-hackathon.named-data.net
+url: http://8th-ndn-hackathon.named-data.net
 baseurl:
 
 plugins:
   - jekyll-assets
-  - jekyll-last-modified-at
 
 deadlines:
         - name: Submission deadline
-          date: <del> Oct 17, 2018 </del>
+          date: TBD
         - name: Acceptance notification
-          date: <del> Oct 18, 2018 </del>
+          date: TBD
 
 # Configuration for permalink
 permalink: /:page.html
 
 # Configuration for site
-title: 7th Named Data Networking (NDN) Hackathon
-short_title: 7th NDN Hackathon
-description: Oct 20 - 21, 2018
-author: 7th NDN Hackathon Organizing Committee
-email: 7th-ndn-hackathon@named-data.net
+title: 8th Named Data Networking (NDN) Hackathon
+short_title: 8th NDN Hackathon
+description: March 8-10, 2019 @ UCLA
+author: 8th NDN Hackathon Organizing Committee
+email: 8th-ndn-hackathon@named-data.net
 
 # Configuration for blog
 lang: en
@@ -38,29 +37,27 @@ truncate_len: 200
 
 # Configuration for navbar.html
 navbar_list:
-- name: Home
-  link: /
+  - name: Home
+    link: /
+  - name: Committees
+    link: /committees.html
+  - name: Terms
+    link: /terms.html
+  - name: Call for Hacks
+    link: /cfh.html
+  - name: Program
+    link: /program.html
+  - name: Judging
+    link: /judging.html
+
 # - name: Call for Hack Proposals
 #   link: /cfh.html
-- name: Committees
-  link: /committees.html
-- name: Terms
-  link: /terms.html
-
-#- name: Call for Hacks
-#  link: /cfh.html
-- name: Program
-  link: /program.html
-
 #- name: <b>REGISTER NOW</b>
-#  link: https://www.eventbrite.com/e/7th-ndn-hackathon-tickets-51133541800
-- name: <b>HACKS</b>
-  link: /hacks.html
-
-- name: <b>PHOTOS</b>
-  link: /photos.html
-- name: Judging
-  link: /judging.html
+#  link: https://www.eventbrite.com/e/8th-ndn-hackathon-tickets-51133541800
+# - name: <b>HACKS</b>
+#   link: /hacks.html
+# - name: <b>PHOTOS</b>
+#   link: /photos.html
 
 asides:
     github: true
@@ -79,7 +76,7 @@ twitter:
     widget_id: 698294519054278656
 
 github:
-   username: 7th-ndn-hackathon
+   username: 8th-ndn-hackathon
    count: 10000
 
 assets:

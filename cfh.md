@@ -2,6 +2,7 @@
 layout: page
 title: Call for Hacks
 ---
+
 We solicit Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
