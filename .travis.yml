@@ -3,7 +3,6 @@ sudo: true
 dist: trusty
 rvm:
 - 2.4
-- jruby
 branches:
   only:
   - source
