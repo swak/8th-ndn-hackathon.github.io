@@ -6,22 +6,28 @@ title: Program
 The hackathon will take place in UCLA.
 
 ## Friday, Mar 8, 2019
-Deatiled schedule TBD.
+
 {:.table-condensed .table-striped .table-hover .program}
 
-<!-- 9:00 am **(PDT)**  | Introduction and welcome reception -->
-<!-- 9:20 am-7:00pm | Start hacking, if needed, participants can work after this time as well. But we really encourage to sleep for the better mental health :) -->
+TBD | Welcome remarks and project idea pitches
+TBD | Forming hack groups
 
 ## Saturday, Mar 9, 2019
-Deatiled schedule TBD.
+
 {:.table-condensed .table-striped .table-hover .program}
 
-<!-- 2:00 pm **(PDT)** | Hackathon ends, presentations, judging -->
-<!-- 3:00 pm **(PDT)** | Announce results -->
+9:00 am - 10:00 am | Breakfast
+10:00 am - 12:30 pm | Morning hacking
+12:30 pm - 1:30 pm | Lunch
+1:30 pm - 7:00 pm | Afternoon hacking
+After 7:00 pm | Night hacking or rest
 
 ## Sunday, Mar 10, 2019
-Deatiled schedule TBD.
+
 {:.table-condensed .table-striped .table-hover .program}
 
-<!-- 2:00 pm **(PDT)** | Hackathon ends, presentations, judging -->
-<!-- 3:00 pm **(PDT)** | Announce results -->
+9:00 am - 10:00 am | Breakfast
+10:00 am - 11:00 am | Wrapping up and preparing projects for juding
+11:00 am - 12:00 pm | Project Demonstration
+12:00 pm - 1:00 pm | Lunch
+1:00 pm - 2:00 pm | Judging and Reception
