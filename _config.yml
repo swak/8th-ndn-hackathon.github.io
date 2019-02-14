@@ -15,9 +15,9 @@ plugins:
 
 deadlines:
         - name: Submission deadline
-          date: TBD
+          date: Mar 2, 2019
         - name: Acceptance notification
-          date: TBD
+          date: Mar 4, 2019
 
 # Configuration for permalink
 permalink: /:page.html

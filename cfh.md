@@ -14,7 +14,7 @@ We encourage projects that:
 
 ## Submission guidelines
 
-Proposals should be submitted via [web form](https://goo.gl/forms/Wd0363sq9heiiFS72).
+Proposals should be submitted via [web form](https://goo.gl/forms/FX5RlYG3DrLJVBfG2).
 
 The submissions should include:
 
