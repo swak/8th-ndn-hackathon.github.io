@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to 8th NDN Hackathon
+title: Welcome to 8th NDN Hackathon (Welcome Remote Participation!)
 ---
  
 We encourage projects that:
