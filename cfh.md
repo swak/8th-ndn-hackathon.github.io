@@ -3,6 +3,10 @@ layout: page
 title: Call for Hacks
 ---
 
+#### **Please register for the 8th NDN Hackathon through the following link:**
+
+<https://www.eventbrite.com/e/8th-ndn-hackathon-welcome-remote-participation-tickets-56589415465>
+
 We solicit Hackathon project proposals that advance the state of NDN.  Participants will have approximately **12 hours** to work on the projects.
 
 We encourage projects that:
