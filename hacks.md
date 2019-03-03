@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Accepted Hacks
+title: Hacks Proposals
 ---
 
 {::options toc_levels="2,3" /}
