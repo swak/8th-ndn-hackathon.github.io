@@ -17,6 +17,10 @@ We encourage projects that:
 
 - Feb 13, 2019: Hackathon website is up
 
+- Feb 28, 2019: Hackathon registration closed
+
+- March 3, 2019: Hackathon project proposals updated
+
 ## Sponsors
 
 [NDN Consortium](https://named-data.net/consortium/)
