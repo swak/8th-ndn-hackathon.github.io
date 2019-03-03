@@ -3,7 +3,10 @@ layout: page
 title: Program
 ---
 
-The hackathon will take place in UCLA.
+The hackathon will take place in UCLA, 
+- **Friday**: Eng IV (EE dept) Tesla room 53-125
+
+- **Saturday and Sunday**: 3rd floor of Eng VI (Saturday and Sunday).
 
 ## Friday, Mar 8, 2019
 
