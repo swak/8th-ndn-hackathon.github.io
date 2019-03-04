@@ -46,7 +46,7 @@ Camera library: https://github.com/yoursunny/ESP32-CAM-OV2640
 
 ### **[Pitch Slides](https://drive.google.com/file/d/1uZ4E0OGr46p2PmnZemcZ8fJiSmjYMQ_4/view)**
 
-Project Lead: Junxiao Shi
+Project Lead: Junxiao Shi, Davide Pesavento
 
 <!-- Project Members: TBD -->
 Prefered Team Size: 3
