@@ -369,3 +369,31 @@ Prefered Team Size: 2
 
 **Expected outcomes**
 - Show screenshots (or live demo) comparing the information displayed by Wireshark on a variety of packet traces before and after the improvements
+
+## 13. Vector Sync for MANET
+
+### **[Pitch Slides](https://drive.google.com/file/d/1tQp5-BbWONzAEdghn_RnG6UhV_mCyH3p/view)**
+
+Project Lead: Tianxiang Li
+
+<!-- Project Members: TBD -->
+Prefered Team Size: 3
+
+**Targeted participant**
+- People with NDN code development experience
+
+**How does your proposal benefit NDN?**
+- For testing Sync Protocol performance in MANET scenarios using Raspberry Pis. This project is aimed to be incorporated with data centric MAC(VMAC) for neighbor discovery and layer 2 name based filtering. 
+
+**Briefly describe the tasks**
+1. Implement a basic version of Vector Sync for MANET.
+
+2. Have a working version of Vector Sync on Raspberry Pis for testing in MANET scenario.
+
+**Any specific tools or language**
+- c++
+
+**Expected outcomes**
+- Vector Sync Library with basic functions.
+
+- Import library to Raspberry Pis for testing.
