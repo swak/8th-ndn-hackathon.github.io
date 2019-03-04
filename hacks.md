@@ -210,7 +210,7 @@ Prefered Team Size: 4
 
 ### **[Pitch Slides](https://drive.google.com/file/d/1r29xvKhG-3lPsaV2a6TFcrE58JbIRMa7/view)**
 
-Project Lead: Davide Pesavento
+Project Lead: Davide Pesavento, Md Ashiqur Rahman
 
 <!-- Project Members: TBD -->
 Prefered Team Size: 3
