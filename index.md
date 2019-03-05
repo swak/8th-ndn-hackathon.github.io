@@ -21,6 +21,8 @@ We encourage projects that:
 
 - March 3, 2019: Hackathon project proposals updated
 
+- March 4, 2019: Accepted projects announced
+
 ## Sponsors
 
 [NDN Consortium](https://named-data.net/consortium/)
