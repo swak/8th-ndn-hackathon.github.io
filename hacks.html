@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Hacks Proposals - 8th Named Data Networking (NDN) Hackathon</title>
+    <meta name="description" content="March 8-10, 2019 @ UCLA">
+    <meta name="author" content="8th NDN Hackathon Organizing Committee">
+    <link rel="canonical" href="http://8th-ndn-hackathon.named-data.net/hacks">
+
+    <link rel="stylesheet" type="text/css" integrity="sha256-T05Mx17/4AWYqulv5zx8MIMqrPq22C9flfr2VZgkPGQ=" crossorigin="anonymous" href="/assets/site-4f4e4cc75effe00598aae96fe73c7c30832aacfab6d82f5f95faf65598243c64.css">
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/assets/ico/favicon-38a0d815005ff0b3d71bae96e5736aaf474efe05b3288d12f6465c38b43aa315.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/assets/ico/apple-touch-icon-144-precomposed-97e5eefed33136b6b7e63bdbdf4957b88045bd96bb9b2cc5a0a8525729ca221f.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/ico/apple-touch-icon-114-precomposed-8603082234efbd8fca0f58505f699a5854a13739f12b87b69143b06a4cccc0c7.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/ico/apple-touch-icon-72-precomposed-a22882427ca6e03081271325bf1294e8cd2ee4c447f635000e4f4a0f694bfe55.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/ico/apple-touch-icon-57-precomposed-933602014f87c50876665303015b7fed8f9dbe32ab7b7b62ebe888e5497dfd43.png">
+
+    
+  </head>
+  <body>
+    <header id="header">
+      <hgroup>
+  <h1 id="site-title">
+    <a class="full" href="/">8th Named Data Networking (NDN) Hackathon</a>
+  </h1>
+
+  <h2 id="site-description">March 8-10, 2019 @ UCLA</h2>
+
+</hgroup>
+
+    </header>
+
+    <nav id="navbar">
+      <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+
+  
+  
+          <li class="">
+            <a href="/">Home</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/committees.html">Committees</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/terms.html">Terms</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/hacks.html"><b>HACKS</b></a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/program.html">Program</a>
+          </li>
+  
+
+  
+  
+          <li class="">
+            <a href="/judging.html">Judging</a>
+          </li>
+  
+
+        </li>
+      </ul>
+      <form class="navbar-form navbar-right" role="search" action="http://google.com/search" method="get">
+        <div class="form-group">
+
+          <input type="hidden" name="q" value="site:http://8th-ndn-hackathon.named-data.net">
+
+          <input type="text" name="q" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3 pull-right">
+          <section id="sidebar-deadlines" class="well">
+ <h3><i class="fa fa-calendar"></i>&nbsp;Important Dates</h3>
+<ul id="deadlines" class="nav nav-list">
+
+  <li><p>Submission deadline:
+  
+  <br/><b style="margin-left: 20px">Mar 2, 2019</b>
+  
+  </p></li>
+
+  <li><p>Acceptance notification:
+  
+  <br/><b style="margin-left: 20px">Mar 4, 2019</b>
+  
+  </p></li>
+
+</ul>
+</section>
+
+        </aside><!--/span-->
+
+        <div id="main" class="col-xs-12 col-sm-7 col-md-8 col-lg-9">
+          <article>
+ <header>
+   <h1>Hacks Proposals</h1>
+ </header>
+
+<section>
+  
+<ul id="markdown-toc">
+  <li><a href="#1-esp32-video-doorbell" id="markdown-toc-1-esp32-video-doorbell">1. ESP32 Video Doorbell</a>    <ul>
+      <li><a href="#pitch-slides" id="markdown-toc-pitch-slides"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#2-enhance-testbed-status-page-and-ndn-fch-service" id="markdown-toc-2-enhance-testbed-status-page-and-ndn-fch-service">2. Enhance Testbed Status Page and NDN-FCH Service</a>    <ul>
+      <li><a href="#pitch-slides-1" id="markdown-toc-pitch-slides-1"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#3-four-layer-improvement-of-esp8266ndn" id="markdown-toc-3-four-layer-improvement-of-esp8266ndn">3. Four-Layer Improvement of esp8266ndn</a>    <ul>
+      <li><a href="#pitch-slides-2" id="markdown-toc-pitch-slides-2"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#4-implementing-the-new-signed-interest-in-ndn-lite" id="markdown-toc-4-implementing-the-new-signed-interest-in-ndn-lite">4. Implementing the new Signed Interest in ndn-lite</a>    <ul>
+      <li><a href="#pitch-slides-3" id="markdown-toc-pitch-slides-3"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#5-ndn-lite-integrate-service-discovery-and-access-control-and-schematized-trust" id="markdown-toc-5-ndn-lite-integrate-service-discovery-and-access-control-and-schematized-trust">5. NDN-Lite: Integrate Service Discovery and Access Control and Schematized Trust</a>    <ul>
+      <li><a href="#pitch-slides-4" id="markdown-toc-pitch-slides-4"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#6-nfd-android-enhancements" id="markdown-toc-6-nfd-android-enhancements">6. NFD-Android Enhancements</a>    <ul>
+      <li><a href="#pitch-slides-5" id="markdown-toc-pitch-slides-5"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#7-self-learning-for-ad-hoc-wireless-networks" id="markdown-toc-7-self-learning-for-ad-hoc-wireless-networks">7. Self-Learning for Ad Hoc Wireless Networks</a>    <ul>
+      <li><a href="#pitch-slides-6" id="markdown-toc-pitch-slides-6"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#8-attribute-based-signature-scheme-for-ndn" id="markdown-toc-8-attribute-based-signature-scheme-for-ndn">8. Attribute Based Signature Scheme for NDN</a>    <ul>
+      <li><a href="#pitch-slides-7" id="markdown-toc-pitch-slides-7"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#9-psync-for-repos" id="markdown-toc-9-psync-for-repos">9. PSync for Repos</a>    <ul>
+      <li><a href="#pitch-slides-8" id="markdown-toc-pitch-slides-8"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#10-enhancements-for-npchat-android-application" id="markdown-toc-10-enhancements-for-npchat-android-application">10. Enhancements for npChat Android application</a>    <ul>
+      <li><a href="#pitch-slides-9" id="markdown-toc-pitch-slides-9"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#11-fix-ndncatchunks-performance-issues" id="markdown-toc-11-fix-ndncatchunks-performance-issues">11. Fix Ndncatchunks Performance Issues</a>    <ul>
+      <li><a href="#pitch-slides-10" id="markdown-toc-pitch-slides-10"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#12-improve-the-wireshark-dissector-for-ndn" id="markdown-toc-12-improve-the-wireshark-dissector-for-ndn">12. Improve the Wireshark dissector for NDN</a>    <ul>
+      <li><a href="#pitch-slides-11" id="markdown-toc-pitch-slides-11"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#13-vector-sync-for-manet" id="markdown-toc-13-vector-sync-for-manet">13. Vector Sync for MANET</a>    <ul>
+      <li><a href="#pitch-slides-12" id="markdown-toc-pitch-slides-12"><strong>Pitch Slides</strong></a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="1-esp32-video-doorbell">1. ESP32 Video Doorbell</h2>
+
+<h3 id="pitch-slides"><strong><a href="https://drive.google.com/file/d/1B-0FBrOfQBRtXzIqesaLxJL4RIm_hf57/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Junxiao Shi</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 2</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Develop a video doorbell using two ESP32 modules programmed with Arduino environment. This would be a fun hands-on exercise for a new developer.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Develop the display unit on an ODROID-GO handheld console.
+Upon receiving and verifying a signed Interest, it plays a ringtone, and displays images retrieved from the camera unit.</p>
+  </li>
+  <li>
+    <p>Develop the camera unit on an AI Thinker ESP32-CAM module.
+When a hardware button is pressed, it sends a signed Interest to the display unit to sound ringtone.
+Upon receiving an Interest for image, it captures an image from the OV2640 camera and sends it as Data segments.</p>
+  </li>
+  <li>
+    <p>NDN library: https://github.com/yoursunny/esp8266ndn 
+Camera library: https://github.com/yoursunny/ESP32-CAM-OV2640</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Project author will loan 1x ODROID-GO, 1x ESP32-CAM, 1x USB-UART, 1x button. Each task needs 1 participant who can write C++.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Finish all tasks.</li>
+</ul>
+
+<h2 id="2-enhance-testbed-status-page-and-ndn-fch-service">2. Enhance Testbed Status Page and NDN-FCH Service</h2>
+
+<h3 id="pitch-slides-1"><strong><a href="https://drive.google.com/file/d/1uZ4E0OGr46p2PmnZemcZ8fJiSmjYMQ_4/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Junxiao Shi, Davide Pesavento</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Provide better visibility into the availability of the global NDN testbed. Current status page http://ndndemo.arl.wustl.edu only shows node availability and routing reachability. Redesigned status page would detect data plane and prefix registration problems.  Make it easier for an end host to find an operational testbed router. ndn-autoconfig and NDN-JS should try multiple routers learned from NDN-FCH.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Develop a backend service to (1) connect to a testbed router over UDP, TCP, and TLS-WebSocket, (2) send ndnping probes to every known destination, (3) register a prefix and check its propagation by sending ndnping probes from another router.
+The results should be saved into a PostgreSQL database for accountability and analysis.</p>
+  </li>
+  <li>
+    <p>Develop a web application that shows the results from the database.</p>
+  </li>
+  <li>
+    <p>Develop an NDN-FCH compatible server that responds with routers with minimum downtime in the past 3 hours.
+This server can directly connect to the database.</p>
+  </li>
+  <li>
+    <p>Modify ndn-autoconfig program to retrieve multiple routers from an NDN-FCH service, and try each only until establishing data plane reachability.
+Also, ndn-autoconfig should try the WiFi access point as a potential NDN router, before executing NDN-FCH stage.</p>
+  </li>
+  <li>
+    <p>Modify NDN-JS Face class to use NDN-FCH service instead of trying to connect to *.ws.ndn.ucla.edu hostnames.</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Backend, webapp, NDN-FCH tasks need 2 participants who can write Python. ndn-autoconfig task needs 0.5 participant who can write C++. NDN-JS task needs 0.5 participant who can write JavaScript.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Finish all tasks.</li>
+</ul>
+
+<h2 id="3-four-layer-improvement-of-esp8266ndn">3. Four-Layer Improvement of esp8266ndn</h2>
+
+<h3 id="pitch-slides-2"><strong><a href="https://drive.google.com/file/d/1fwC31-5n2QpPDaEO590R1WdgTLeeBKs3/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Junxiao Shi</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 5</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>esp8266ndn is an Arduino library that enables NDN application development on ESP8266 and ESP32 microcontrollers. https://github.com/yoursunny/esp8266ndn  This project improves esp8266ndn in four layers. L5: add PSync PartialSync consumer. L3: experiment with Bloom Filter based Forwarder that performs NDN forwarding in fixed amount of memory. L2: Python proxy program to bring BLE to NFD. L1: tune LoRa parameters. Multi-Layer: port the library to nRF52 boards.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>ML
+Make the library compile with Arduino core for Adafruit Bluefruit nRF52 boards, without breaking existing ESP8266 and ESP32 support.
+Send and receive packets over Bluetooth Low Energy as GATT attributes, using same protocol as the existing ESP32 implementation.
+Crypto is excluded in this project.</p>
+  </li>
+  <li>
+    <p>L5
+Implement a PSync PartialSync consumer.</p>
+  </li>
+  <li>
+    <p>L3
+Explore a Bloom Filter based NDN forwarder design that performs NDN forwarding using a fixed amount of memory.
+The design will be provided in a separate document.
+Bloom Filter library: https://github.com/yoursunny/hsip-bf</p>
+  </li>
+  <li>
+    <p>L2
+Develop a Python proxy program with PyNDN2 and bluepy libraries to bridge between NFD’s Unix socket face and a BLE connection to ESP32 or nRF52.
+Reference: BlePingClient.py in esp8266ndn repository.</p>
+  </li>
+  <li>
+    <p>L1
+Study how different LoRa parameters affect signal range and packet loss rate.
+Tune the existing LoRa transport to make it work better in indoor and outdoor environment.</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Project author will loan 2x nRF52832, 3x ESP32 WiFi+BLE+LoRa, 3x ESP32 WiFi+BLE, and 1x BLE-capable NDN router. ML task needs 1.5 participant who can write C++. L5 task needs 1 participant who can write C++. L3 task needs 1.5 participant who understands algorithms and can write C++. L2 task needs 0.5 participant who can write simple Python. L1 task needs 0.5 participant who can walk 1 kilometer and back several times.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Finish half of the tasks.</li>
+</ul>
+
+<h2 id="4-implementing-the-new-signed-interest-in-ndn-lite">4. Implementing the new Signed Interest in ndn-lite</h2>
+
+<h3 id="pitch-slides-3"><strong><a href="https://drive.google.com/file/d/1XEjRgK9obrBLCMtPgrnR2ZK9oSd9uDbp/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Zhiyi Zhang</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 2</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>New Feature</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>Implement the signed Interest according to the new signed Interest format</li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Implemented and Tested</li>
+</ul>
+
+<h2 id="5-ndn-lite-integrate-service-discovery-and-access-control-and-schematized-trust">5. NDN-Lite: Integrate Service Discovery and Access Control and Schematized Trust</h2>
+
+<h3 id="pitch-slides-4"><strong><a href="https://drive.google.com/file/d/1moMgE_lXyrbO3tOACM8fqIVfMhA4wpgU/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Zhiyi Zhang</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 4</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>
+    <p>Make NDN-Lite available to Raspberry Pi owners and MacOS users.</p>
+  </li>
+  <li>
+    <p>Prepare for the sigcomm tutorial</p>
+  </li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Make NDN-Lite available to Raspberry Pi</p>
+  </li>
+  <li>
+    <p>Coding</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Cool Demo of these three functions provided by ndn-lite</li>
+</ul>
+
+<h2 id="6-nfd-android-enhancements">6. NFD-Android Enhancements</h2>
+
+<h3 id="pitch-slides-5"><strong><a href="https://drive.google.com/file/d/1M8qv-U2cNN3mcXf8wH8WZVMLSB0uVVn6/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Davide Pesavento</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 4</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>More and more researchers are using NDN on mobile devices; unfortunately NFD-Android is buggy and lacks several important features</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Add ndnping server (#4765) and extend existing client implementation</p>
+  </li>
+  <li>
+    <p>Allow changing strategy choices (#3462) and content store configuration at runtime</p>
+  </li>
+  <li>
+    <p>Modify global NFD settings from the app: face protocols, multicast, logging, … (#2623, #2746)</p>
+  </li>
+  <li>
+    <p>Hub discovery improvements: Wi-Fi access point or IP gateway, DNS-SD, fix bugs, … (#3840, #4028)</p>
+  </li>
+  <li>
+    <p>Bug fixes and stability enhancements (#4688, #4628, #3409, …)</p>
+  </li>
+  <li>
+    <p>UI/UX improvements</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Java/Kotlin, Android, jNDN, NFD management</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Java/Kotlin, Android, jNDN, NFD management</li>
+</ul>
+
+<h2 id="7-self-learning-for-ad-hoc-wireless-networks">7. Self-Learning for Ad Hoc Wireless Networks</h2>
+
+<h3 id="pitch-slides-6"><strong><a href="https://drive.google.com/file/d/1r29xvKhG-3lPsaV2a6TFcrE58JbIRMa7/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Davide Pesavento, Md Ashiqur Rahman</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>There is a strong desire from multiple research groups to use self-learning in ad hoc wireless networks, or more generally on broadcast links. However, the initial version of self-learning released with NFD 0.6.5 supports only point-to-point links (e.g., unicast Ethernet in wired networks).</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Ethernet multicast face refactoring (#4283)</p>
+  </li>
+  <li>
+    <p>Finish adding EndpointId to the relevant APIs (#4843, #4849)</p>
+  </li>
+  <li>
+    <p>Implement self-learning strategy version 2 (#4281)</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, NFD internals (faces, forwarding, strategy API)</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Self-learning can be used in ad hoc wireless networks, including automatic switching from multicast to unicast. If feasible, give a basic demonstration of the new forwarding strategy.</li>
+</ul>
+
+<h2 id="8-attribute-based-signature-scheme-for-ndn">8. Attribute Based Signature Scheme for NDN</h2>
+
+<h3 id="pitch-slides-7"><strong><a href="https://drive.google.com/file/d/1H8awzvgfIn_FBpnpmaLm_JCb-r53G_Rw/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Sanjeev Kaushik Ramani</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>New signature scheme that can be used in the ICE-AR project</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>Implement Attribute Based Signature Scheme in NDN</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Be able to sign packets using attributes and predicates.</li>
+</ul>
+
+<h2 id="9-psync-for-repos">9. PSync for Repos</h2>
+
+<h3 id="pitch-slides-8"><strong><a href="https://drive.google.com/file/d/1zv3nVmH8Qla-GMxh4LrpsKLY_G6Be3aD/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Jeff Thompson</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Robust synchronization of names enabling repo storage and multiuser discovery of content.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Make a version of the PSync FullProducer class which allows arbitrary names w/o sequence numbers.</p>
+  </li>
+  <li>
+    <p>Test robustness under a set of many names. Compare performance with names with sequence numbers.</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>ndn-cxx, basic NDN interest/data exchange, sync protocols.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>
+    <p>An updated PSync library with Full PSync of arbitrary names, at https://github.com/named-data/PSync</p>
+  </li>
+  <li>
+    <p>Demo app showing repo fetching of data for new names announced by a producer.</p>
+  </li>
+</ul>
+
+<h2 id="10-enhancements-for-npchat-android-application">10. Enhancements for npChat Android application</h2>
+
+<h3 id="pitch-slides-9"><strong><a href="https://drive.google.com/file/d/1trb9waSkIvfu3iwtF1iYAJ2vi0yebRko/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Ashlesh Gawande</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Add pipelining to jNDN similar to ndn-cxx SegmentFetcher. Make more use of jNDN functionalities.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Add fixed and aimd pipelining to jNDN SegmentFetcher along with unit tests.</p>
+  </li>
+  <li>
+    <p>Replace npChat’s FaceProxy class with MemoryContentCache or InMemoryStorageRetaining to serve data.</p>
+  </li>
+  <li>
+    <p>Modify npChat to collect timing information.</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>Java, jNDN, NFD-android, Android app development</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Demonstrate better performance of npChat app while fetching media.</li>
+</ul>
+
+<h2 id="11-fix-ndncatchunks-performance-issues">11. Fix Ndncatchunks Performance Issues</h2>
+
+<h3 id="pitch-slides-10"><strong><a href="https://drive.google.com/file/d/1OcPdRln_bkU04OQYdH5QOejq6w7oZ0jc/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Klaus Schneider</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 4</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>Improve performance of NDN applications</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ul>
+  <li>Evaluate ndncatchunks to see what causes the performance issues, and then implement and test the solution.</li>
+</ul>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>C++, NFD, tc netem.</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Evaluate ndncatchunks to see what causes the performance issues, and then implement and test the solution.</li>
+</ul>
+
+<h2 id="12-improve-the-wireshark-dissector-for-ndn">12. Improve the Wireshark dissector for NDN</h2>
+
+<h3 id="pitch-slides-11"><strong><a href="https://drive.google.com/file/d/1sj-F-CG9R7b5j3GqzU3RfKrNRSGESNbS/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Davide Pesavento</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 2</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People new to NDN development</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>The Wireshark dissector is a fundamental tool for NDN developers, operators, and experimenters, yet it is still incomplete and unusable in several common cases</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Make TLV-TYPE decoding context-aware</p>
+  </li>
+  <li>
+    <p>Reassemble NDNLP-fragmented packets</p>
+  </li>
+  <li>
+    <p>Decode NDN packets spanning multiple TCP segments</p>
+  </li>
+  <li>
+    <p>Improve info displayed on unrecognized and out-of-order TLV elements</p>
+  </li>
+  <li>
+    <p>Produce sample pcap traces for all the above cases (for testing)</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>No</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>Show screenshots (or live demo) comparing the information displayed by Wireshark on a variety of packet traces before and after the improvements</li>
+</ul>
+
+<h2 id="13-vector-sync-for-manet">13. Vector Sync for MANET</h2>
+
+<h3 id="pitch-slides-12"><strong><a href="https://drive.google.com/file/d/1tQp5-BbWONzAEdghn_RnG6UhV_mCyH3p/view">Pitch Slides</a></strong></h3>
+
+<p>Project Lead: Tianxiang Li</p>
+
+<!-- Project Members: TBD -->
+<p>Prefered Team Size: 3</p>
+
+<p><strong>Targeted participant</strong></p>
+<ul>
+  <li>People with NDN code development experience</li>
+</ul>
+
+<p><strong>How does your proposal benefit NDN?</strong></p>
+<ul>
+  <li>For testing Sync Protocol performance in MANET scenarios using Raspberry Pis. This project is aimed to be incorporated with data centric MAC(VMAC) for neighbor discovery and layer 2 name based filtering.</li>
+</ul>
+
+<p><strong>Briefly describe the tasks</strong></p>
+<ol>
+  <li>
+    <p>Implement a basic version of Vector Sync for MANET.</p>
+  </li>
+  <li>
+    <p>Have a working version of Vector Sync on Raspberry Pis for testing in MANET scenario.</p>
+  </li>
+</ol>
+
+<p><strong>Any specific tools or language</strong></p>
+<ul>
+  <li>c++</li>
+</ul>
+
+<p><strong>Expected outcomes</strong></p>
+<ul>
+  <li>
+    <p>Vector Sync Library with basic functions.</p>
+  </li>
+  <li>
+    <p>Import library to Raspberry Pis for testing.</p>
+  </li>
+</ul>
+
+</section>
+
+<footer>
+</footer>
+</article>
+
+        </div>
+
+        <aside id="sidebar" class="col-xs-8 col-sm-5 col-md-4 col-lg-3">
+          <section id="sidebar-github" class="well hidden-print">
+  <h3><a style="color:black" href="https://github.com/8th-ndn-hackathon" target="_blank"><i class="fa fa-github"></i></a>&nbsp;Hackathon Repositories</h3>
+  <ul id="github-repo" class="nav nav-list"><li><p>Reading github repositories...</p></li></ul>
+</section>
+
+<section id="sidebar-twitter" class="well hidden-print">
+ <h3><i class="fa fa-twitter"></i>&nbsp;Tweets</h3>
+ <a href="https://twitter.com/NamedData"
+   class="twitter-follow-button"
+   data-dnt="true"
+   data-lang="en"
+   data-show-count="false"
+   data-show-screen-name="true"
+ >Follow @NamedData</a>
+ <a class="twitter-timeline" href="https://twitter.com/NamedData"
+   data-widget-id="698294519054278656" data-chrome="transparent noheader">Tweets by @NamedData</a>
+</section>
+
+
+        </aside><!--/span-->
+
+      </div><!--/row-->
+    </div> <!-- /container -->
+
+    <hr>
+
+    <footer id="footer">
+      <p class="pull-right hidden-print"><a href="#">Back to top</a></p>
+<p>Copyright &copy; 2019, 8th NDN Hackathon Organizing Committee</p>
+
+    </footer>
+
+    <script src="/assets/site-75313d5a95ba1accc06518f236ca6aa21784eecb19d0016fa19430b050b75c93.js" integrity="sha256-dTE9WpW6GszAZRjyNspqoheE7ssZ0AFvoZQwsFC3XJM=" crossorigin="anonymous" type="text/javascript"></script>
+  </body>
+</html>
